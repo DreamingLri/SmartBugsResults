@@ -1,0 +1,24 @@
+ANTLR runtime and generated code versions disagree: 4.9.2!=4.7.2
+ANTLR runtime and generated code versions disagree: 4.9.2!=4.7.2
+Analysing /sb/Rubixi.sol:Rubixi...
+Vulnerability: Reentrancy. Maybe in function: collectFeesInEther(uint256). PC: 0x7de. Line number: 85.
+Vulnerability: Integer Overflow. Maybe in function: participantDetails(uint256). PC: 0x8bd. Line number: 159.
+If a = 2
+and b = 57896044618658097711785492504343998528125389394066565090870189395499687084031
+Vulnerability: Unchecked Low Level Call. Maybe in function: collectFeesInEther(uint256). PC: 0x7de. Line number: 85.
+Vulnerability: Reentrancy. Maybe in function: collectPercentOfFees(uint256). PC: 0x689. Line number: 103.
+Vulnerability: Unchecked Low Level Call. Maybe in function: _fallthrough. PC: 0xd5c. Line number: 74.
+Vulnerability: Reentrancy. Maybe in function: _fallthrough. PC: 0xd5c. Line number: 74.
+Vulnerability: Integer Overflow. Maybe in function: collectFeesInEther(uint256). PC: 0x9dd. Line number: 90.
+If a = 231214468591303370096409821787047048322173853130881819351868434339463688
+and b = 1000000000000000000
+Vulnerability: Unchecked Low Level Call. Maybe in function: collectPercentOfFees(uint256). PC: 0x689. Line number: 103.
+Vulnerability: Integer Underflow. Maybe in function: numberOfParticipantsWaitingForPayout(). PC: 0xaf5. Line number: 153.
+If a = 0
+and b = 1
+Vulnerability: Transaction Ordering Dependence. Maybe in function: collectFeesInEther(uint256). PC: 0x7de. Line number: 85.
+Vulnerability: Unchecked Low Level Call. Maybe in function: collectFeesInEther(uint256). PC: 0xa54. Line number: 95.
+Vulnerability: Transaction Ordering Dependence. Maybe in function: collectPercentOfFees(uint256). PC: 0x689. Line number: 103.
+Vulnerability: Integer Overflow. Maybe in function: nextPayoutWhenPyramidBalanceTotalsApproximately(). PC: 0x6ce. Line number: 141.
+If a = 32566525097896449689440067171164175410085309970215879700301002177906065984432
+and b = 111414077815863400510004064629973595961579173665589224203503662149373724986687

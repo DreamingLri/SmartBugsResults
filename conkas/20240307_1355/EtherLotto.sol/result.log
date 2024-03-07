@@ -1,0 +1,9 @@
+ANTLR runtime and generated code versions disagree: 4.9.2!=4.7.2
+ANTLR runtime and generated code versions disagree: 4.9.2!=4.7.2
+Analysing /sb/EtherLotto.sol:EtherLotto...
+Vulnerability: Transaction Ordering Dependence. Maybe in function: play(). PC: 0x1ff. Line number: 52.
+Vulnerability: Reentrancy. Maybe in function: play(). PC: 0x1ff. Line number: 52.
+Vulnerability: Integer Underflow. Maybe in function: play(). PC: 0x1ea. Line number: 52.
+If a = 115792089237316195423570985008687907853269984665640564039457584007913129639926
+and b = 1
+Vulnerability: Time Manipulation. Maybe in function: play(). PC: 0x149. Line number: 43.
