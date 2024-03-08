@@ -1,0 +1,193 @@
+2024-03-08 01:48:38,686 - Main     - INFO - [1mInitializing seed to 1427655.0[0m
+2024-03-08 01:48:38,822 - Fuzzer   - INFO - [1mFuzzing contract [1mERC20[0m[0m
+2024-03-08 01:48:39,034 - Analysis - INFO - [1mGeneration number 0 	 Code coverage: 48.74% (386/792) 	 Branch coverage: 65.79% (25/38) 	 Transactions: 13 (12 unique)   	 Time: 0.13585329055786133[0m
+2024-03-08 01:48:39,258 - Analysis - INFO - [1mGeneration number 1 	 Code coverage: 48.74% (386/792) 	 Branch coverage: 65.79% (25/38) 	 Transactions: 26 (20 unique)   	 Time: 0.35925936698913574[0m
+2024-03-08 01:48:40,179 - Analysis - INFO - [1mGeneration number 2 	 Code coverage: 49.12% (389/792) 	 Branch coverage: 68.42% (26/38) 	 Transactions: 47 (30 unique)   	 Time: 1.280599594116211[0m
+2024-03-08 01:48:40,998 - Analysis - INFO - [1mGeneration number 3 	 Code coverage: 49.12% (389/792) 	 Branch coverage: 68.42% (26/38) 	 Transactions: 72 (37 unique)   	 Time: 2.099149227142334[0m
+2024-03-08 01:48:41,971 - Analysis - INFO - [1mGeneration number 4 	 Code coverage: 49.12% (389/792) 	 Branch coverage: 68.42% (26/38) 	 Transactions: 105 (43 unique)   	 Time: 3.072018623352051[0m
+2024-03-08 01:48:43,485 - Analysis - INFO - [1mGeneration number 5 	 Code coverage: 49.12% (389/792) 	 Branch coverage: 68.42% (26/38) 	 Transactions: 142 (50 unique)   	 Time: 4.586278915405273[0m
+2024-03-08 01:48:44,086 - Analysis - INFO - [1mGeneration number 6 	 Code coverage: 49.12% (389/792) 	 Branch coverage: 68.42% (26/38) 	 Transactions: 177 (57 unique)   	 Time: 5.187291145324707[0m
+2024-03-08 01:48:44,545 - Analysis - INFO - [1mGeneration number 7 	 Code coverage: 49.12% (389/792) 	 Branch coverage: 68.42% (26/38) 	 Transactions: 210 (63 unique)   	 Time: 5.646884918212891[0m
+2024-03-08 01:48:45,094 - Analysis - INFO - [1mGeneration number 8 	 Code coverage: 49.12% (389/792) 	 Branch coverage: 68.42% (26/38) 	 Transactions: 243 (69 unique)   	 Time: 6.195783853530884[0m
+2024-03-08 01:48:45,587 - Analysis - INFO - [1mGeneration number 9 	 Code coverage: 49.12% (389/792) 	 Branch coverage: 68.42% (26/38) 	 Transactions: 276 (75 unique)   	 Time: 6.688607454299927[0m
+2024-03-08 01:48:46,085 - Analysis - INFO - [1mGeneration number 10 	 Code coverage: 49.12% (389/792) 	 Branch coverage: 68.42% (26/38) 	 Transactions: 311 (81 unique)   	 Time: 7.186648845672607[0m
+2024-03-08 01:48:46,565 - Analysis - INFO - [1mGeneration number 11 	 Code coverage: 49.12% (389/792) 	 Branch coverage: 68.42% (26/38) 	 Transactions: 346 (87 unique)   	 Time: 7.666057825088501[0m
+2024-03-08 01:48:47,148 - Analysis - INFO - [1mGeneration number 12 	 Code coverage: 49.12% (389/792) 	 Branch coverage: 68.42% (26/38) 	 Transactions: 382 (93 unique)   	 Time: 8.249794244766235[0m
+2024-03-08 01:48:47,706 - Analysis - INFO - [1mGeneration number 13 	 Code coverage: 49.12% (389/792) 	 Branch coverage: 68.42% (26/38) 	 Transactions: 417 (99 unique)   	 Time: 8.806986093521118[0m
+2024-03-08 01:48:48,738 - Analysis - INFO - [1mGeneration number 14 	 Code coverage: 97.98% (776/792) 	 Branch coverage: 86.84% (33/38) 	 Transactions: 446 (117 unique)   	 Time: 9.839408159255981[0m
+2024-03-08 01:48:50,130 - Analysis - INFO - [1mGeneration number 15 	 Code coverage: 98.74% (782/792) 	 Branch coverage: 92.11% (35/38) 	 Transactions: 483 (128 unique)   	 Time: 11.23129653930664[0m
+2024-03-08 01:48:51,686 - Analysis - INFO - [1mGeneration number 16 	 Code coverage: 98.74% (782/792) 	 Branch coverage: 92.11% (35/38) 	 Transactions: 521 (136 unique)   	 Time: 12.787975311279297[0m
+2024-03-08 01:48:53,677 - Analysis - INFO - [1mGeneration number 17 	 Code coverage: 98.74% (782/792) 	 Branch coverage: 92.11% (35/38) 	 Transactions: 572 (147 unique)   	 Time: 14.778120040893555[0m
+2024-03-08 01:48:56,122 - Analysis - INFO - [1mGeneration number 18 	 Code coverage: 98.74% (782/792) 	 Branch coverage: 92.11% (35/38) 	 Transactions: 622 (157 unique)   	 Time: 17.223636388778687[0m
+2024-03-08 01:48:57,989 - Analysis - INFO - [1mGeneration number 19 	 Code coverage: 98.74% (782/792) 	 Branch coverage: 92.11% (35/38) 	 Transactions: 673 (168 unique)   	 Time: 19.089951753616333[0m
+2024-03-08 01:49:00,858 - Analysis - INFO - [1mGeneration number 20 	 Code coverage: 98.74% (782/792) 	 Branch coverage: 92.11% (35/38) 	 Transactions: 727 (179 unique)   	 Time: 21.95997452735901[0m
+2024-03-08 01:49:03,822 - Analysis - INFO - [1mGeneration number 21 	 Code coverage: 98.74% (782/792) 	 Branch coverage: 92.11% (35/38) 	 Transactions: 778 (186 unique)   	 Time: 24.92296528816223[0m
+2024-03-08 01:49:06,844 - Analysis - INFO - [1mGeneration number 22 	 Code coverage: 98.74% (782/792) 	 Branch coverage: 92.11% (35/38) 	 Transactions: 833 (196 unique)   	 Time: 27.945202827453613[0m
+2024-03-08 01:49:10,512 - Analysis - INFO - [1mGeneration number 23 	 Code coverage: 98.74% (782/792) 	 Branch coverage: 92.11% (35/38) 	 Transactions: 887 (207 unique)   	 Time: 31.613850355148315[0m
+2024-03-08 01:49:14,877 - Analysis - INFO - [1mGeneration number 24 	 Code coverage: 98.74% (782/792) 	 Branch coverage: 92.11% (35/38) 	 Transactions: 937 (217 unique)   	 Time: 35.9780707359314[0m
+2024-03-08 01:49:18,419 - Analysis - INFO - [1mGeneration number 25 	 Code coverage: 98.74% (782/792) 	 Branch coverage: 92.11% (35/38) 	 Transactions: 990 (229 unique)   	 Time: 39.52098751068115[0m
+2024-03-08 01:49:21,887 - Analysis - INFO - [1mGeneration number 26 	 Code coverage: 98.74% (782/792) 	 Branch coverage: 92.11% (35/38) 	 Transactions: 1044 (239 unique)   	 Time: 42.988871335983276[0m
+2024-03-08 01:49:24,011 - Analysis - INFO - [1mGeneration number 27 	 Code coverage: 98.74% (782/792) 	 Branch coverage: 92.11% (35/38) 	 Transactions: 1075 (250 unique)   	 Time: 45.11227512359619[0m
+2024-03-08 01:49:25,256 - Analysis - INFO - [1mGeneration number 28 	 Code coverage: 98.74% (782/792) 	 Branch coverage: 92.11% (35/38) 	 Transactions: 1108 (259 unique)   	 Time: 46.357524394989014[0m
+2024-03-08 01:49:27,444 - Analysis - INFO - [1mGeneration number 29 	 Code coverage: 98.74% (782/792) 	 Branch coverage: 92.11% (35/38) 	 Transactions: 1156 (271 unique)   	 Time: 48.545913219451904[0m
+2024-03-08 01:49:29,456 - Analysis - INFO - [1mGeneration number 30 	 Code coverage: 98.74% (782/792) 	 Branch coverage: 92.11% (35/38) 	 Transactions: 1205 (283 unique)   	 Time: 50.5572235584259[0m
+2024-03-08 01:49:30,937 - Analysis - INFO - [1mGeneration number 31 	 Code coverage: 98.74% (782/792) 	 Branch coverage: 92.11% (35/38) 	 Transactions: 1255 (295 unique)   	 Time: 52.03852319717407[0m
+2024-03-08 01:49:32,381 - Analysis - INFO - [1mGeneration number 32 	 Code coverage: 98.74% (782/792) 	 Branch coverage: 92.11% (35/38) 	 Transactions: 1308 (307 unique)   	 Time: 53.48253631591797[0m
+2024-03-08 01:49:34,067 - Analysis - INFO - [1mGeneration number 33 	 Code coverage: 98.74% (782/792) 	 Branch coverage: 92.11% (35/38) 	 Transactions: 1361 (319 unique)   	 Time: 55.16867136955261[0m
+2024-03-08 01:49:35,588 - Analysis - INFO - [1mGeneration number 34 	 Code coverage: 98.74% (782/792) 	 Branch coverage: 92.11% (35/38) 	 Transactions: 1415 (331 unique)   	 Time: 56.68900799751282[0m
+2024-03-08 01:49:37,134 - Analysis - INFO - [1mGeneration number 35 	 Code coverage: 98.74% (782/792) 	 Branch coverage: 92.11% (35/38) 	 Transactions: 1468 (343 unique)   	 Time: 58.235713481903076[0m
+2024-03-08 01:49:38,727 - Analysis - INFO - [1mGeneration number 36 	 Code coverage: 98.74% (782/792) 	 Branch coverage: 92.11% (35/38) 	 Transactions: 1521 (355 unique)   	 Time: 59.82867741584778[0m
+2024-03-08 01:49:39,523 - Analysis - INFO - [1mGeneration number 37 	 Code coverage: 98.74% (782/792) 	 Branch coverage: 92.11% (35/38) 	 Transactions: 1552 (370 unique)   	 Time: 60.624515533447266[0m
+2024-03-08 01:49:40,804 - Analysis - INFO - [1mGeneration number 38 	 Code coverage: 98.74% (782/792) 	 Branch coverage: 92.11% (35/38) 	 Transactions: 1592 (381 unique)   	 Time: 61.90558576583862[0m
+2024-03-08 01:49:41,964 - Analysis - INFO - [1mGeneration number 39 	 Code coverage: 98.74% (782/792) 	 Branch coverage: 92.11% (35/38) 	 Transactions: 1636 (391 unique)   	 Time: 63.06552338600159[0m
+2024-03-08 01:49:43,703 - Analysis - INFO - [1mGeneration number 40 	 Code coverage: 98.74% (782/792) 	 Branch coverage: 92.11% (35/38) 	 Transactions: 1687 (403 unique)   	 Time: 64.80404353141785[0m
+2024-03-08 01:49:45,164 - Analysis - INFO - [1mGeneration number 41 	 Code coverage: 98.74% (782/792) 	 Branch coverage: 92.11% (35/38) 	 Transactions: 1738 (415 unique)   	 Time: 66.26517415046692[0m
+2024-03-08 01:49:46,935 - Analysis - INFO - [1mGeneration number 42 	 Code coverage: 98.74% (782/792) 	 Branch coverage: 92.11% (35/38) 	 Transactions: 1791 (426 unique)   	 Time: 68.03686165809631[0m
+2024-03-08 01:49:48,959 - Analysis - INFO - [1mGeneration number 43 	 Code coverage: 98.74% (782/792) 	 Branch coverage: 92.11% (35/38) 	 Transactions: 1845 (438 unique)   	 Time: 70.06091237068176[0m
+2024-03-08 01:49:51,306 - Analysis - INFO - [1mGeneration number 44 	 Code coverage: 98.74% (782/792) 	 Branch coverage: 92.11% (35/38) 	 Transactions: 1896 (450 unique)   	 Time: 72.40700793266296[0m
+2024-03-08 01:49:53,684 - Analysis - INFO - [1mGeneration number 45 	 Code coverage: 98.74% (782/792) 	 Branch coverage: 92.11% (35/38) 	 Transactions: 1947 (462 unique)   	 Time: 74.78556275367737[0m
+2024-03-08 01:49:56,226 - Analysis - INFO - [1mGeneration number 46 	 Code coverage: 98.74% (782/792) 	 Branch coverage: 92.11% (35/38) 	 Transactions: 1998 (474 unique)   	 Time: 77.32778334617615[0m
+2024-03-08 01:49:57,770 - Analysis - INFO - [1mGeneration number 47 	 Code coverage: 98.74% (782/792) 	 Branch coverage: 92.11% (35/38) 	 Transactions: 2029 (489 unique)   	 Time: 78.87105774879456[0m
+2024-03-08 01:49:59,693 - Analysis - INFO - [1mGeneration number 48 	 Code coverage: 98.74% (782/792) 	 Branch coverage: 92.11% (35/38) 	 Transactions: 2059 (499 unique)   	 Time: 80.79445147514343[0m
+2024-03-08 01:50:01,832 - Analysis - INFO - [1mGeneration number 49 	 Code coverage: 98.74% (782/792) 	 Branch coverage: 92.11% (35/38) 	 Transactions: 2099 (509 unique)   	 Time: 82.93305611610413[0m
+2024-03-08 01:50:03,872 - Analysis - INFO - [1mGeneration number 50 	 Code coverage: 98.74% (782/792) 	 Branch coverage: 92.11% (35/38) 	 Transactions: 2141 (520 unique)   	 Time: 84.9737274646759[0m
+2024-03-08 01:50:05,761 - Analysis - INFO - [1mGeneration number 51 	 Code coverage: 98.74% (782/792) 	 Branch coverage: 92.11% (35/38) 	 Transactions: 2187 (531 unique)   	 Time: 86.86238741874695[0m
+2024-03-08 01:50:07,907 - Analysis - INFO - [1mGeneration number 52 	 Code coverage: 98.74% (782/792) 	 Branch coverage: 92.11% (35/38) 	 Transactions: 2231 (542 unique)   	 Time: 89.0084502696991[0m
+2024-03-08 01:50:09,734 - Analysis - INFO - [1mGeneration number 53 	 Code coverage: 98.74% (782/792) 	 Branch coverage: 92.11% (35/38) 	 Transactions: 2277 (553 unique)   	 Time: 90.83585667610168[0m
+2024-03-08 01:50:11,567 - Analysis - INFO - [1mGeneration number 54 	 Code coverage: 98.74% (782/792) 	 Branch coverage: 92.11% (35/38) 	 Transactions: 2319 (564 unique)   	 Time: 92.6685996055603[0m
+2024-03-08 01:50:13,667 - Analysis - INFO - [1mGeneration number 55 	 Code coverage: 98.74% (782/792) 	 Branch coverage: 92.11% (35/38) 	 Transactions: 2360 (576 unique)   	 Time: 94.76864743232727[0m
+2024-03-08 01:50:15,766 - Analysis - INFO - [1mGeneration number 56 	 Code coverage: 98.74% (782/792) 	 Branch coverage: 92.11% (35/38) 	 Transactions: 2401 (588 unique)   	 Time: 96.86730122566223[0m
+2024-03-08 01:50:17,170 - Analysis - INFO - [1mGeneration number 57 	 Code coverage: 98.74% (782/792) 	 Branch coverage: 92.11% (35/38) 	 Transactions: 2433 (604 unique)   	 Time: 98.27120351791382[0m
+2024-03-08 01:50:18,948 - Analysis - INFO - [1mGeneration number 58 	 Code coverage: 98.74% (782/792) 	 Branch coverage: 92.11% (35/38) 	 Transactions: 2473 (615 unique)   	 Time: 100.04977798461914[0m
+2024-03-08 01:50:20,711 - Analysis - INFO - [1mGeneration number 59 	 Code coverage: 98.74% (782/792) 	 Branch coverage: 92.11% (35/38) 	 Transactions: 2514 (626 unique)   	 Time: 101.81272268295288[0m
+2024-03-08 01:50:22,855 - Analysis - INFO - [1mGeneration number 60 	 Code coverage: 98.74% (782/792) 	 Branch coverage: 92.11% (35/38) 	 Transactions: 2561 (638 unique)   	 Time: 103.95655751228333[0m
+2024-03-08 01:50:25,142 - Analysis - INFO - [1mGeneration number 61 	 Code coverage: 98.74% (782/792) 	 Branch coverage: 92.11% (35/38) 	 Transactions: 2603 (650 unique)   	 Time: 106.24314069747925[0m
+2024-03-08 01:50:27,386 - Analysis - INFO - [1mGeneration number 62 	 Code coverage: 98.74% (782/792) 	 Branch coverage: 92.11% (35/38) 	 Transactions: 2648 (662 unique)   	 Time: 108.48783731460571[0m
+2024-03-08 01:50:30,080 - Analysis - INFO - [1mGeneration number 63 	 Code coverage: 98.74% (782/792) 	 Branch coverage: 92.11% (35/38) 	 Transactions: 2694 (674 unique)   	 Time: 111.1814112663269[0m
+2024-03-08 01:50:34,091 - Analysis - INFO - [1mGeneration number 64 	 Code coverage: 98.74% (782/792) 	 Branch coverage: 92.11% (35/38) 	 Transactions: 2743 (686 unique)   	 Time: 115.19222664833069[0m
+2024-03-08 01:50:36,161 - Analysis - INFO - [1mGeneration number 65 	 Code coverage: 98.74% (782/792) 	 Branch coverage: 92.11% (35/38) 	 Transactions: 2791 (698 unique)   	 Time: 117.2623782157898[0m
+2024-03-08 01:50:38,676 - Analysis - INFO - [1mGeneration number 66 	 Code coverage: 98.74% (782/792) 	 Branch coverage: 92.11% (35/38) 	 Transactions: 2842 (709 unique)   	 Time: 119.77727174758911[0m
+2024-03-08 01:50:39,694 - Analysis - INFO - [1mGeneration number 67 	 Code coverage: 98.74% (782/792) 	 Branch coverage: 92.11% (35/38) 	 Transactions: 2869 (718 unique)   	 Time: 120.79530382156372[0m
+2024-03-08 01:50:41,031 - Analysis - INFO - [1mGeneration number 68 	 Code coverage: 98.74% (782/792) 	 Branch coverage: 92.11% (35/38) 	 Transactions: 2896 (726 unique)   	 Time: 122.13256359100342[0m
+2024-03-08 01:50:42,608 - Analysis - INFO - [1mGeneration number 69 	 Code coverage: 98.74% (782/792) 	 Branch coverage: 92.11% (35/38) 	 Transactions: 2932 (734 unique)   	 Time: 123.70959663391113[0m
+2024-03-08 01:50:44,427 - Analysis - INFO - [1mGeneration number 70 	 Code coverage: 98.74% (782/792) 	 Branch coverage: 92.11% (35/38) 	 Transactions: 2974 (743 unique)   	 Time: 125.52807998657227[0m
+2024-03-08 01:50:46,656 - Analysis - INFO - [1mGeneration number 71 	 Code coverage: 98.74% (782/792) 	 Branch coverage: 92.11% (35/38) 	 Transactions: 3021 (750 unique)   	 Time: 127.75753211975098[0m
+2024-03-08 01:50:48,590 - Analysis - INFO - [1mGeneration number 72 	 Code coverage: 98.74% (782/792) 	 Branch coverage: 92.11% (35/38) 	 Transactions: 3062 (758 unique)   	 Time: 129.69147109985352[0m
+2024-03-08 01:50:50,117 - Analysis - INFO - [1mGeneration number 73 	 Code coverage: 98.74% (782/792) 	 Branch coverage: 92.11% (35/38) 	 Transactions: 3102 (766 unique)   	 Time: 131.2179696559906[0m
+2024-03-08 01:50:52,147 - Analysis - INFO - [1mGeneration number 74 	 Code coverage: 98.74% (782/792) 	 Branch coverage: 92.11% (35/38) 	 Transactions: 3148 (775 unique)   	 Time: 133.24886918067932[0m
+2024-03-08 01:50:54,281 - Analysis - INFO - [1mGeneration number 75 	 Code coverage: 98.74% (782/792) 	 Branch coverage: 92.11% (35/38) 	 Transactions: 3190 (782 unique)   	 Time: 135.38215684890747[0m
+2024-03-08 01:50:56,518 - Analysis - INFO - [1mGeneration number 76 	 Code coverage: 98.74% (782/792) 	 Branch coverage: 92.11% (35/38) 	 Transactions: 3237 (792 unique)   	 Time: 137.6189923286438[0m
+2024-03-08 01:50:57,440 - Analysis - INFO - [1mGeneration number 77 	 Code coverage: 98.74% (782/792) 	 Branch coverage: 92.11% (35/38) 	 Transactions: 3265 (801 unique)   	 Time: 138.54099917411804[0m
+2024-03-08 01:50:58,781 - Analysis - INFO - [1mGeneration number 78 	 Code coverage: 98.74% (782/792) 	 Branch coverage: 92.11% (35/38) 	 Transactions: 3297 (811 unique)   	 Time: 139.88285374641418[0m
+2024-03-08 01:51:00,343 - Analysis - INFO - [1mGeneration number 79 	 Code coverage: 98.74% (782/792) 	 Branch coverage: 92.11% (35/38) 	 Transactions: 3328 (820 unique)   	 Time: 141.44421005249023[0m
+2024-03-08 01:51:02,030 - Analysis - INFO - [1mGeneration number 80 	 Code coverage: 98.74% (782/792) 	 Branch coverage: 92.11% (35/38) 	 Transactions: 3362 (827 unique)   	 Time: 143.13137650489807[0m
+2024-03-08 01:51:03,663 - Analysis - INFO - [1mGeneration number 81 	 Code coverage: 98.74% (782/792) 	 Branch coverage: 92.11% (35/38) 	 Transactions: 3393 (833 unique)   	 Time: 144.76412844657898[0m
+2024-03-08 01:51:05,269 - Analysis - INFO - [1mGeneration number 82 	 Code coverage: 98.74% (782/792) 	 Branch coverage: 92.11% (35/38) 	 Transactions: 3434 (843 unique)   	 Time: 146.37022066116333[0m
+2024-03-08 01:51:07,193 - Analysis - INFO - [1mGeneration number 83 	 Code coverage: 98.74% (782/792) 	 Branch coverage: 92.11% (35/38) 	 Transactions: 3475 (853 unique)   	 Time: 148.29438257217407[0m
+2024-03-08 01:51:08,992 - Analysis - INFO - [1mGeneration number 84 	 Code coverage: 98.74% (782/792) 	 Branch coverage: 92.11% (35/38) 	 Transactions: 3520 (863 unique)   	 Time: 150.0932629108429[0m
+2024-03-08 01:51:10,607 - Analysis - INFO - [1mGeneration number 85 	 Code coverage: 98.74% (782/792) 	 Branch coverage: 92.11% (35/38) 	 Transactions: 3568 (873 unique)   	 Time: 151.70869517326355[0m
+2024-03-08 01:51:13,160 - Analysis - INFO - [1mGeneration number 86 	 Code coverage: 98.74% (782/792) 	 Branch coverage: 92.11% (35/38) 	 Transactions: 3618 (881 unique)   	 Time: 154.261901140213[0m
+2024-03-08 01:51:14,213 - Analysis - INFO - [1mGeneration number 87 	 Code coverage: 98.74% (782/792) 	 Branch coverage: 92.11% (35/38) 	 Transactions: 3648 (893 unique)   	 Time: 155.31432962417603[0m
+2024-03-08 01:51:14,982 - Analysis - INFO - [1mGeneration number 88 	 Code coverage: 98.74% (782/792) 	 Branch coverage: 92.11% (35/38) 	 Transactions: 3675 (900 unique)   	 Time: 156.08296966552734[0m
+2024-03-08 01:51:15,901 - Analysis - INFO - [1mGeneration number 89 	 Code coverage: 98.74% (782/792) 	 Branch coverage: 92.11% (35/38) 	 Transactions: 3713 (911 unique)   	 Time: 157.0019166469574[0m
+2024-03-08 01:51:16,729 - Analysis - INFO - [1mGeneration number 90 	 Code coverage: 98.74% (782/792) 	 Branch coverage: 92.11% (35/38) 	 Transactions: 3757 (922 unique)   	 Time: 157.83013010025024[0m
+2024-03-08 01:51:18,151 - Analysis - INFO - [1mGeneration number 91 	 Code coverage: 98.74% (782/792) 	 Branch coverage: 92.11% (35/38) 	 Transactions: 3804 (933 unique)   	 Time: 159.2526605129242[0m
+2024-03-08 01:51:20,110 - Analysis - INFO - [1mGeneration number 92 	 Code coverage: 98.74% (782/792) 	 Branch coverage: 92.11% (35/38) 	 Transactions: 3855 (945 unique)   	 Time: 161.21157503128052[0m
+2024-03-08 01:51:22,248 - Analysis - INFO - [1mGeneration number 93 	 Code coverage: 98.74% (782/792) 	 Branch coverage: 92.11% (35/38) 	 Transactions: 3904 (955 unique)   	 Time: 163.34930610656738[0m
+2024-03-08 01:51:23,928 - Analysis - INFO - [1mGeneration number 94 	 Code coverage: 98.74% (782/792) 	 Branch coverage: 92.11% (35/38) 	 Transactions: 3952 (966 unique)   	 Time: 165.02969098091125[0m
+2024-03-08 01:51:26,008 - Analysis - INFO - [1mGeneration number 95 	 Code coverage: 98.74% (782/792) 	 Branch coverage: 92.11% (35/38) 	 Transactions: 4002 (976 unique)   	 Time: 167.1093201637268[0m
+2024-03-08 01:51:27,878 - Analysis - INFO - [1mGeneration number 96 	 Code coverage: 98.74% (782/792) 	 Branch coverage: 92.11% (35/38) 	 Transactions: 4053 (987 unique)   	 Time: 168.97901821136475[0m
+2024-03-08 01:51:28,655 - Analysis - INFO - [1mGeneration number 97 	 Code coverage: 98.74% (782/792) 	 Branch coverage: 92.11% (35/38) 	 Transactions: 4081 (995 unique)   	 Time: 169.75674772262573[0m
+2024-03-08 01:51:29,512 - Analysis - INFO - [1mGeneration number 98 	 Code coverage: 98.74% (782/792) 	 Branch coverage: 92.11% (35/38) 	 Transactions: 4112 (1004 unique)   	 Time: 170.61336874961853[0m
+2024-03-08 01:51:30,402 - Analysis - INFO - [1mGeneration number 99 	 Code coverage: 98.74% (782/792) 	 Branch coverage: 92.11% (35/38) 	 Transactions: 4144 (1010 unique)   	 Time: 171.50320553779602[0m
+2024-03-08 01:51:31,263 - Analysis - INFO - [1mGeneration number 100 	 Code coverage: 98.74% (782/792) 	 Branch coverage: 92.11% (35/38) 	 Transactions: 4180 (1017 unique)   	 Time: 172.3648886680603[0m
+2024-03-08 01:51:32,032 - Analysis - INFO - [1mGeneration number 101 	 Code coverage: 98.74% (782/792) 	 Branch coverage: 92.11% (35/38) 	 Transactions: 4221 (1026 unique)   	 Time: 173.13313937187195[0m
+2024-03-08 01:51:32,783 - Analysis - INFO - [1mGeneration number 102 	 Code coverage: 98.74% (782/792) 	 Branch coverage: 92.11% (35/38) 	 Transactions: 4264 (1033 unique)   	 Time: 173.88450813293457[0m
+2024-03-08 01:51:33,799 - Analysis - INFO - [1mGeneration number 103 	 Code coverage: 98.74% (782/792) 	 Branch coverage: 92.11% (35/38) 	 Transactions: 4310 (1041 unique)   	 Time: 174.90039539337158[0m
+2024-03-08 01:51:34,868 - Analysis - INFO - [1mGeneration number 104 	 Code coverage: 98.74% (782/792) 	 Branch coverage: 92.11% (35/38) 	 Transactions: 4356 (1048 unique)   	 Time: 175.96944975852966[0m
+2024-03-08 01:51:35,970 - Analysis - INFO - [1mGeneration number 105 	 Code coverage: 98.74% (782/792) 	 Branch coverage: 92.11% (35/38) 	 Transactions: 4396 (1053 unique)   	 Time: 177.07156825065613[0m
+2024-03-08 01:51:37,324 - Analysis - INFO - [1mGeneration number 106 	 Code coverage: 98.74% (782/792) 	 Branch coverage: 92.11% (35/38) 	 Transactions: 4450 (1063 unique)   	 Time: 178.4256887435913[0m
+2024-03-08 01:51:38,150 - Analysis - INFO - [1mGeneration number 107 	 Code coverage: 98.74% (782/792) 	 Branch coverage: 92.11% (35/38) 	 Transactions: 4475 (1066 unique)   	 Time: 179.25138425827026[0m
+2024-03-08 01:51:39,381 - Analysis - INFO - [1mGeneration number 108 	 Code coverage: 98.74% (782/792) 	 Branch coverage: 92.11% (35/38) 	 Transactions: 4513 (1076 unique)   	 Time: 180.48217821121216[0m
+2024-03-08 01:51:40,603 - Analysis - INFO - [1mGeneration number 109 	 Code coverage: 98.74% (782/792) 	 Branch coverage: 92.11% (35/38) 	 Transactions: 4552 (1084 unique)   	 Time: 181.70431089401245[0m
+2024-03-08 01:51:41,539 - Analysis - INFO - [1mGeneration number 110 	 Code coverage: 98.74% (782/792) 	 Branch coverage: 92.11% (35/38) 	 Transactions: 4590 (1091 unique)   	 Time: 182.64046692848206[0m
+2024-03-08 01:51:42,983 - Analysis - INFO - [1mGeneration number 111 	 Code coverage: 98.74% (782/792) 	 Branch coverage: 92.11% (35/38) 	 Transactions: 4635 (1101 unique)   	 Time: 184.08478927612305[0m
+2024-03-08 01:51:44,159 - Analysis - INFO - [1mGeneration number 112 	 Code coverage: 98.74% (782/792) 	 Branch coverage: 92.11% (35/38) 	 Transactions: 4680 (1110 unique)   	 Time: 185.26003766059875[0m
+2024-03-08 01:51:45,559 - Analysis - INFO - [1mGeneration number 113 	 Code coverage: 98.74% (782/792) 	 Branch coverage: 92.11% (35/38) 	 Transactions: 4724 (1119 unique)   	 Time: 186.66089296340942[0m
+2024-03-08 01:51:46,999 - Analysis - INFO - [1mGeneration number 114 	 Code coverage: 98.74% (782/792) 	 Branch coverage: 92.11% (35/38) 	 Transactions: 4771 (1129 unique)   	 Time: 188.10035490989685[0m
+2024-03-08 01:51:48,212 - Analysis - INFO - [1mGeneration number 115 	 Code coverage: 98.74% (782/792) 	 Branch coverage: 92.11% (35/38) 	 Transactions: 4819 (1139 unique)   	 Time: 189.31327080726624[0m
+2024-03-08 01:51:50,023 - Analysis - INFO - [1mGeneration number 116 	 Code coverage: 98.74% (782/792) 	 Branch coverage: 92.11% (35/38) 	 Transactions: 4870 (1148 unique)   	 Time: 191.12443232536316[0m
+2024-03-08 01:51:51,135 - Analysis - INFO - [1mGeneration number 117 	 Code coverage: 98.74% (782/792) 	 Branch coverage: 92.11% (35/38) 	 Transactions: 4901 (1155 unique)   	 Time: 192.2361490726471[0m
+2024-03-08 01:51:52,761 - Analysis - INFO - [1mGeneration number 118 	 Code coverage: 98.74% (782/792) 	 Branch coverage: 92.11% (35/38) 	 Transactions: 4930 (1165 unique)   	 Time: 193.86235404014587[0m
+2024-03-08 01:51:54,319 - Analysis - INFO - [1mGeneration number 119 	 Code coverage: 98.74% (782/792) 	 Branch coverage: 92.11% (35/38) 	 Transactions: 4974 (1176 unique)   	 Time: 195.42044925689697[0m
+2024-03-08 01:51:56,013 - Analysis - INFO - [1mGeneration number 120 	 Code coverage: 98.74% (782/792) 	 Branch coverage: 92.11% (35/38) 	 Transactions: 5019 (1187 unique)   	 Time: 197.11476969718933[0m
+2024-03-08 01:51:58,042 - Analysis - INFO - [1mGeneration number 121 	 Code coverage: 98.74% (782/792) 	 Branch coverage: 92.11% (35/38) 	 Transactions: 5073 (1199 unique)   	 Time: 199.14302968978882[0m
+2024-03-08 01:52:00,100 - Analysis - INFO - [1mGeneration number 122 	 Code coverage: 98.74% (782/792) 	 Branch coverage: 92.11% (35/38) 	 Transactions: 5128 (1211 unique)   	 Time: 201.2012746334076[0m
+2024-03-08 01:52:02,143 - Analysis - INFO - [1mGeneration number 123 	 Code coverage: 98.74% (782/792) 	 Branch coverage: 92.11% (35/38) 	 Transactions: 5182 (1223 unique)   	 Time: 203.24453115463257[0m
+2024-03-08 01:52:04,353 - Analysis - INFO - [1mGeneration number 124 	 Code coverage: 98.74% (782/792) 	 Branch coverage: 92.11% (35/38) 	 Transactions: 5236 (1235 unique)   	 Time: 205.4546823501587[0m
+2024-03-08 01:52:06,518 - Analysis - INFO - [1mGeneration number 125 	 Code coverage: 98.74% (782/792) 	 Branch coverage: 92.11% (35/38) 	 Transactions: 5289 (1247 unique)   	 Time: 207.6190710067749[0m
+2024-03-08 01:52:08,468 - Analysis - INFO - [1mGeneration number 126 	 Code coverage: 98.74% (782/792) 	 Branch coverage: 92.11% (35/38) 	 Transactions: 5342 (1259 unique)   	 Time: 209.56901049613953[0m
+2024-03-08 01:52:09,325 - Analysis - INFO - [1mGeneration number 127 	 Code coverage: 98.74% (782/792) 	 Branch coverage: 92.11% (35/38) 	 Transactions: 5370 (1271 unique)   	 Time: 210.42664241790771[0m
+2024-03-08 01:52:10,491 - Analysis - INFO - [1mGeneration number 128 	 Code coverage: 98.74% (782/792) 	 Branch coverage: 92.11% (35/38) 	 Transactions: 5398 (1281 unique)   	 Time: 211.5929296016693[0m
+2024-03-08 01:52:11,505 - Analysis - INFO - [1mGeneration number 129 	 Code coverage: 98.74% (782/792) 	 Branch coverage: 92.11% (35/38) 	 Transactions: 5429 (1289 unique)   	 Time: 212.60665559768677[0m
+2024-03-08 01:52:12,781 - Analysis - INFO - [1mGeneration number 130 	 Code coverage: 98.74% (782/792) 	 Branch coverage: 92.11% (35/38) 	 Transactions: 5467 (1299 unique)   	 Time: 213.882141828537[0m
+2024-03-08 01:52:14,171 - Analysis - INFO - [1mGeneration number 131 	 Code coverage: 98.74% (782/792) 	 Branch coverage: 92.11% (35/38) 	 Transactions: 5513 (1310 unique)   	 Time: 215.2717776298523[0m
+2024-03-08 01:52:15,992 - Analysis - INFO - [1mGeneration number 132 	 Code coverage: 98.74% (782/792) 	 Branch coverage: 92.11% (35/38) 	 Transactions: 5562 (1322 unique)   	 Time: 217.09328889846802[0m
+2024-03-08 01:52:17,472 - Analysis - INFO - [1mGeneration number 133 	 Code coverage: 98.74% (782/792) 	 Branch coverage: 92.11% (35/38) 	 Transactions: 5611 (1334 unique)   	 Time: 218.5736165046692[0m
+2024-03-08 01:52:19,202 - Analysis - INFO - [1mGeneration number 134 	 Code coverage: 98.74% (782/792) 	 Branch coverage: 92.11% (35/38) 	 Transactions: 5659 (1346 unique)   	 Time: 220.30307173728943[0m
+2024-03-08 01:52:20,869 - Analysis - INFO - [1mGeneration number 135 	 Code coverage: 98.74% (782/792) 	 Branch coverage: 92.11% (35/38) 	 Transactions: 5707 (1358 unique)   	 Time: 221.97062516212463[0m
+2024-03-08 01:52:22,154 - Analysis - INFO - [1mGeneration number 136 	 Code coverage: 98.74% (782/792) 	 Branch coverage: 92.11% (35/38) 	 Transactions: 5755 (1370 unique)   	 Time: 223.2549946308136[0m
+2024-03-08 01:52:22,991 - Analysis - INFO - [1mGeneration number 137 	 Code coverage: 98.74% (782/792) 	 Branch coverage: 92.11% (35/38) 	 Transactions: 5784 (1381 unique)   	 Time: 224.09288358688354[0m
+2024-03-08 01:52:24,107 - Analysis - INFO - [1mGeneration number 138 	 Code coverage: 98.74% (782/792) 	 Branch coverage: 92.11% (35/38) 	 Transactions: 5815 (1390 unique)   	 Time: 225.20853304862976[0m
+2024-03-08 01:52:26,233 - Analysis - INFO - [1mGeneration number 139 	 Code coverage: 98.74% (782/792) 	 Branch coverage: 92.11% (35/38) 	 Transactions: 5863 (1401 unique)   	 Time: 227.33412885665894[0m
+2024-03-08 01:52:28,676 - Analysis - INFO - [1mGeneration number 140 	 Code coverage: 98.74% (782/792) 	 Branch coverage: 92.11% (35/38) 	 Transactions: 5914 (1411 unique)   	 Time: 229.77756786346436[0m
+2024-03-08 01:52:31,053 - Analysis - INFO - [1mGeneration number 141 	 Code coverage: 98.74% (782/792) 	 Branch coverage: 92.11% (35/38) 	 Transactions: 5966 (1422 unique)   	 Time: 232.154687166214[0m
+2024-03-08 01:52:33,314 - Analysis - INFO - [1mGeneration number 142 	 Code coverage: 98.74% (782/792) 	 Branch coverage: 92.11% (35/38) 	 Transactions: 6019 (1432 unique)   	 Time: 234.41549253463745[0m
+2024-03-08 01:52:35,507 - Analysis - INFO - [1mGeneration number 143 	 Code coverage: 98.74% (782/792) 	 Branch coverage: 92.11% (35/38) 	 Transactions: 6074 (1444 unique)   	 Time: 236.60856294631958[0m
+2024-03-08 01:52:37,541 - Analysis - INFO - [1mGeneration number 144 	 Code coverage: 98.74% (782/792) 	 Branch coverage: 92.11% (35/38) 	 Transactions: 6126 (1454 unique)   	 Time: 238.64253330230713[0m
+2024-03-08 01:52:40,118 - Analysis - INFO - [1mGeneration number 145 	 Code coverage: 98.74% (782/792) 	 Branch coverage: 92.11% (35/38) 	 Transactions: 6184 (1466 unique)   	 Time: 241.21964573860168[0m
+2024-03-08 01:52:42,229 - Analysis - INFO - [1mGeneration number 146 	 Code coverage: 98.74% (782/792) 	 Branch coverage: 92.11% (35/38) 	 Transactions: 6243 (1478 unique)   	 Time: 243.33038473129272[0m
+2024-03-08 01:52:43,271 - Analysis - INFO - [1mGeneration number 147 	 Code coverage: 98.74% (782/792) 	 Branch coverage: 92.11% (35/38) 	 Transactions: 6272 (1488 unique)   	 Time: 244.37229228019714[0m
+2024-03-08 01:52:44,938 - Analysis - INFO - [1mGeneration number 148 	 Code coverage: 98.74% (782/792) 	 Branch coverage: 92.11% (35/38) 	 Transactions: 6307 (1499 unique)   	 Time: 246.0396180152893[0m
+2024-03-08 01:52:46,605 - Analysis - INFO - [1mGeneration number 149 	 Code coverage: 98.74% (782/792) 	 Branch coverage: 92.11% (35/38) 	 Transactions: 6344 (1508 unique)   	 Time: 247.70662117004395[0m
+2024-03-08 01:52:48,218 - Analysis - INFO - [1mGeneration number 150 	 Code coverage: 98.74% (782/792) 	 Branch coverage: 92.11% (35/38) 	 Transactions: 6388 (1518 unique)   	 Time: 249.31921887397766[0m
+2024-03-08 01:52:49,339 - Analysis - INFO - [1mGeneration number 151 	 Code coverage: 98.74% (782/792) 	 Branch coverage: 92.11% (35/38) 	 Transactions: 6426 (1526 unique)   	 Time: 250.4405381679535[0m
+2024-03-08 01:52:50,482 - Analysis - INFO - [1mGeneration number 152 	 Code coverage: 98.74% (782/792) 	 Branch coverage: 92.11% (35/38) 	 Transactions: 6459 (1532 unique)   	 Time: 251.58372116088867[0m
+2024-03-08 01:52:51,450 - Analysis - INFO - [1mGeneration number 153 	 Code coverage: 98.74% (782/792) 	 Branch coverage: 92.11% (35/38) 	 Transactions: 6492 (1538 unique)   	 Time: 252.5513162612915[0m
+2024-03-08 01:52:52,763 - Analysis - INFO - [1mGeneration number 154 	 Code coverage: 98.74% (782/792) 	 Branch coverage: 92.11% (35/38) 	 Transactions: 6525 (1544 unique)   	 Time: 253.8643183708191[0m
+2024-03-08 01:52:53,806 - Analysis - INFO - [1mGeneration number 155 	 Code coverage: 98.74% (782/792) 	 Branch coverage: 92.11% (35/38) 	 Transactions: 6558 (1550 unique)   	 Time: 254.9077684879303[0m
+2024-03-08 01:52:55,298 - Analysis - INFO - [1mGeneration number 156 	 Code coverage: 98.74% (782/792) 	 Branch coverage: 92.11% (35/38) 	 Transactions: 6591 (1556 unique)   	 Time: 256.3993818759918[0m
+2024-03-08 01:52:56,169 - Analysis - INFO - [1mGeneration number 157 	 Code coverage: 98.74% (782/792) 	 Branch coverage: 92.11% (35/38) 	 Transactions: 6620 (1562 unique)   	 Time: 257.2708897590637[0m
+2024-03-08 01:52:57,964 - Analysis - INFO - [1mGeneration number 158 	 Code coverage: 98.74% (782/792) 	 Branch coverage: 92.11% (35/38) 	 Transactions: 6655 (1572 unique)   	 Time: 259.0658309459686[0m
+2024-03-08 01:53:00,297 - Analysis - INFO - [1mGeneration number 159 	 Code coverage: 98.74% (782/792) 	 Branch coverage: 92.11% (35/38) 	 Transactions: 6701 (1581 unique)   	 Time: 261.39858770370483[0m
+2024-03-08 01:53:02,240 - Analysis - INFO - [1mGeneration number 160 	 Code coverage: 98.74% (782/792) 	 Branch coverage: 92.11% (35/38) 	 Transactions: 6751 (1591 unique)   	 Time: 263.3419277667999[0m
+2024-03-08 01:53:04,801 - Analysis - INFO - [1mGeneration number 161 	 Code coverage: 98.74% (782/792) 	 Branch coverage: 92.11% (35/38) 	 Transactions: 6800 (1601 unique)   	 Time: 265.90265440940857[0m
+2024-03-08 01:53:08,095 - Analysis - INFO - [1mGeneration number 162 	 Code coverage: 98.74% (782/792) 	 Branch coverage: 92.11% (35/38) 	 Transactions: 6851 (1611 unique)   	 Time: 269.1960210800171[0m
+2024-03-08 01:53:10,035 - Analysis - INFO - [1mGeneration number 163 	 Code coverage: 98.74% (782/792) 	 Branch coverage: 92.11% (35/38) 	 Transactions: 6892 (1619 unique)   	 Time: 271.1366877555847[0m
+2024-03-08 01:53:11,594 - Analysis - INFO - [1mGeneration number 164 	 Code coverage: 98.74% (782/792) 	 Branch coverage: 92.11% (35/38) 	 Transactions: 6934 (1627 unique)   	 Time: 272.69510769844055[0m
+2024-03-08 01:53:13,286 - Analysis - INFO - [1mGeneration number 165 	 Code coverage: 98.74% (782/792) 	 Branch coverage: 92.11% (35/38) 	 Transactions: 6981 (1636 unique)   	 Time: 274.387326002121[0m
+2024-03-08 01:53:15,083 - Analysis - INFO - [1mGeneration number 166 	 Code coverage: 98.74% (782/792) 	 Branch coverage: 92.11% (35/38) 	 Transactions: 7029 (1645 unique)   	 Time: 276.184445142746[0m
+2024-03-08 01:53:16,056 - Analysis - INFO - [1mGeneration number 167 	 Code coverage: 98.74% (782/792) 	 Branch coverage: 92.11% (35/38) 	 Transactions: 7059 (1652 unique)   	 Time: 277.1579067707062[0m
+2024-03-08 01:53:17,819 - Analysis - INFO - [1mGeneration number 168 	 Code coverage: 98.74% (782/792) 	 Branch coverage: 92.11% (35/38) 	 Transactions: 7092 (1662 unique)   	 Time: 278.9205026626587[0m
+2024-03-08 01:53:19,884 - Analysis - INFO - [1mGeneration number 169 	 Code coverage: 98.74% (782/792) 	 Branch coverage: 92.11% (35/38) 	 Transactions: 7130 (1672 unique)   	 Time: 280.98582196235657[0m
+2024-03-08 01:53:21,574 - Analysis - INFO - [1mGeneration number 170 	 Code coverage: 98.74% (782/792) 	 Branch coverage: 92.11% (35/38) 	 Transactions: 7170 (1684 unique)   	 Time: 282.67506194114685[0m
+2024-03-08 01:53:23,307 - Analysis - INFO - [1mGeneration number 171 	 Code coverage: 98.74% (782/792) 	 Branch coverage: 92.11% (35/38) 	 Transactions: 7209 (1694 unique)   	 Time: 284.40866255760193[0m
+2024-03-08 01:53:25,054 - Analysis - INFO - [1mGeneration number 172 	 Code coverage: 98.74% (782/792) 	 Branch coverage: 92.11% (35/38) 	 Transactions: 7251 (1706 unique)   	 Time: 286.1555473804474[0m
+2024-03-08 01:53:26,712 - Analysis - INFO - [1mGeneration number 173 	 Code coverage: 98.74% (782/792) 	 Branch coverage: 92.11% (35/38) 	 Transactions: 7292 (1718 unique)   	 Time: 287.8137903213501[0m
+2024-03-08 01:53:29,034 - Analysis - INFO - [1mGeneration number 174 	 Code coverage: 98.74% (782/792) 	 Branch coverage: 92.11% (35/38) 	 Transactions: 7333 (1727 unique)   	 Time: 290.1351053714752[0m
+
+     ______            ______                _           
+    / ____/___  ____  / ____/_  __________  (_)_  _______
+   / /   / __ \/ __ \/ /_  / / / /_  /_  / / / / / / ___/
+  / /___/ /_/ / / / / __/ / /_/ / / /_/ /_/ / /_/ (__  ) 
+  \____/\____/_/ /_/_/    \__,_/ /___/___/_/\__,_/____/  
+
+delteed file
+2024-03-08 01:53:29,266 - Analysis - INFO - [1m-----------------------------------------------------[0m
+2024-03-08 01:53:29,267 - Analysis - INFO - Number of generations: 	 174
+2024-03-08 01:53:29,267 - Analysis - INFO - Number of transactions: 	 7333 (1727 unique)
+2024-03-08 01:53:29,267 - Analysis - INFO - Transactions per second: 	 25
+2024-03-08 01:53:29,267 - Analysis - INFO - Total code coverage: 	 98.74% (782/792)
+2024-03-08 01:53:29,267 - Analysis - INFO - Total branch coverage: 	 92.11% (35/38)
+2024-03-08 01:53:29,268 - Analysis - INFO - Total execution time: 	 290.37 seconds
+2024-03-08 01:53:29,269 - Analysis - INFO - Total memory consumption: 	 81.84 MB
