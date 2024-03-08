@@ -1,0 +1,51 @@
+{
+    "docker": {
+        "command": "ethor-with-reconstruction '/sb/SimpleDAO.rt.hex' --prune-strategy=aggressive --predicate-inlining-strategy=linear --preanalysis -v",
+        "detach": true,
+        "entrypoint": null,
+        "image": "smartbugs/ethor:2023",
+        "mem_limit": "8g",
+        "user": 0,
+        "volumes": {
+            "/tmp/tmpozg69dqi": {
+                "bind": "/sb",
+                "mode": "rw"
+            }
+        }
+    },
+    "filename": "samples/SimpleDAO.rt.hex",
+    "platform": {
+        "cpu": "12th Gen Intel(R) Core(TM) i9-12900H",
+        "python": "3.10.12.final.0 (64 bit)",
+        "release": "5.15.133.1-microsoft-standard-WSL2",
+        "smartbugs": "2.0.8",
+        "system": "Linux",
+        "version": "#1 SMP Thu Oct 5 21:02:42 UTC 2023"
+    },
+    "result": {
+        "duration": 15.26734471321106,
+        "exit_code": 0,
+        "logs": "result.log",
+        "output": null,
+        "start": 1709900047.6635194
+    },
+    "runid": "20240308_1210",
+    "solc": null,
+    "tool": {
+        "bin": null,
+        "command": "ethor-with-reconstruction '$FILENAME' --prune-strategy=aggressive --predicate-inlining-strategy=linear --preanalysis -v",
+        "cpu_quota": null,
+        "entrypoint": null,
+        "id": "ethor-2023",
+        "image": "smartbugs/ethor:2023",
+        "info": "eThor is a sound static analyzer for EVM smart contracts based on HoRSt.",
+        "mem_limit": null,
+        "mode": "runtime",
+        "name": "eThor",
+        "origin": "https://secpriv.wien/ethor",
+        "output": null,
+        "parser": "parser.py",
+        "solc": null,
+        "version": "2023"
+    }
+}

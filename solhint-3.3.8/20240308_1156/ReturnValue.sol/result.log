@@ -1,0 +1,6 @@
+/sb/ReturnValue.sol:7:1: Compiler version 0.4.25 does not satisfy the ^0.5.8 semver requirement [Error/compiler-version]
+/sb/ReturnValue.sol:12:5: Provide an error message for require [Warning/reason-string]
+/sb/ReturnValue.sol:12:13: Avoid to use low level calls. [Warning/avoid-low-level-calls]
+/sb/ReturnValue.sol:17:5: Avoid to use low level calls. [Warning/avoid-low-level-calls]
+
+4 problems

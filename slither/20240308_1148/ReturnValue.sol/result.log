@@ -1,0 +1,16 @@
+INFO:Slither:Compilation warnings/errors on /sb/ReturnValue.sol:
+/sb/ReturnValue.sol:17:5: Warning: Return value of low-level calls not used.
+    callee.call();
+    ^-----------^
+
+INFO:Detectors:[92m
+ReturnValue.callchecked (/sb/ReturnValue.sol#11-15) should be declared external
+ReturnValue.callnotchecked (/sb/ReturnValue.sol#15-19) should be declared external
+Reference: https://github.com/trailofbits/slither/wiki/Detectors-Documentation#public-function-that-could-be-declared-as-external[0m
+INFO:Detectors:[92m
+Low level call in ReturnValue.callchecked (/sb/ReturnValue.sol#11-15):
+	-require(bool)(callee.call()) /sb/ReturnValue.sol#12-15
+Low level call in ReturnValue.callnotchecked (/sb/ReturnValue.sol#15-19):
+	-callee.call() /sb/ReturnValue.sol#18-19
+Reference: https://github.com/trailofbits/slither/wiki/Detectors-Documentation#low-level-calls[0m
+INFO:Slither:/sb/ReturnValue.sol analyzed (1 contracts), 4 result(s) found

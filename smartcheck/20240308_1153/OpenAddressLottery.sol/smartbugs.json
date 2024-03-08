@@ -1,0 +1,51 @@
+{
+    "docker": {
+        "command": null,
+        "detach": true,
+        "entrypoint": "'/sb/bin/do_solidity.sh' '/sb/OpenAddressLottery.sol' '/sb/bin'",
+        "image": "smartbugs/smartcheck",
+        "mem_limit": "8g",
+        "user": 0,
+        "volumes": {
+            "/tmp/tmpmca6gt79": {
+                "bind": "/sb",
+                "mode": "rw"
+            }
+        }
+    },
+    "filename": "samples/OpenAddressLottery.sol",
+    "platform": {
+        "cpu": "12th Gen Intel(R) Core(TM) i9-12900H",
+        "python": "3.10.12.final.0 (64 bit)",
+        "release": "5.15.133.1-microsoft-standard-WSL2",
+        "smartbugs": "2.0.8",
+        "system": "Linux",
+        "version": "#1 SMP Thu Oct 5 21:02:42 UTC 2023"
+    },
+    "result": {
+        "duration": 8.38263487815857,
+        "exit_code": 0,
+        "logs": "result.log",
+        "output": null,
+        "start": 1709898966.0805504
+    },
+    "runid": "20240308_1153",
+    "solc": "0.4.26",
+    "tool": {
+        "bin": "scripts",
+        "command": null,
+        "cpu_quota": null,
+        "entrypoint": "'$BIN/do_solidity.sh' '$FILENAME' '$BIN'",
+        "id": "smartcheck",
+        "image": "smartbugs/smartcheck",
+        "info": "SmartCheck is an extensible static analysis tool for discovering vulnerabilities and other code issues in Ethereum smart contracts written in the Solidity programming language.",
+        "mem_limit": null,
+        "mode": "solidity",
+        "name": "Smartcheck",
+        "origin": "https://github.com/smartdec/smartcheck",
+        "output": null,
+        "parser": "parser.py",
+        "solc": true,
+        "version": null
+    }
+}

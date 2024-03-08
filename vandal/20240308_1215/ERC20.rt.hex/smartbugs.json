@@ -1,0 +1,51 @@
+{
+    "docker": {
+        "command": null,
+        "detach": true,
+        "entrypoint": "'/sb/bin/do_runtime.sh' '/sb/ERC20.rt.hex' '600' '/sb/bin'",
+        "image": "smartbugs/vandal",
+        "mem_limit": "8g",
+        "user": 0,
+        "volumes": {
+            "/tmp/tmp390uxccp": {
+                "bind": "/sb",
+                "mode": "rw"
+            }
+        }
+    },
+    "filename": "samples/ERC20.rt.hex",
+    "platform": {
+        "cpu": "12th Gen Intel(R) Core(TM) i9-12900H",
+        "python": "3.10.12.final.0 (64 bit)",
+        "release": "5.15.133.1-microsoft-standard-WSL2",
+        "smartbugs": "2.0.8",
+        "system": "Linux",
+        "version": "#1 SMP Thu Oct 5 21:02:42 UTC 2023"
+    },
+    "result": {
+        "duration": 3.371488332748413,
+        "exit_code": 1,
+        "logs": "result.log",
+        "output": "result.tar",
+        "start": 1709900476.3914235
+    },
+    "runid": "20240308_1215",
+    "solc": null,
+    "tool": {
+        "bin": "scripts",
+        "command": null,
+        "cpu_quota": null,
+        "entrypoint": "'$BIN/do_runtime.sh' '$FILENAME' '$TIMEOUT' '$BIN'",
+        "id": "vandal",
+        "image": "smartbugs/vandal",
+        "info": "Vandal is a static program analysis framework for Ethereum smart contract bytecode.",
+        "mem_limit": null,
+        "mode": "runtime",
+        "name": "Vandal",
+        "origin": "https://github.com/usyd-blockchain/vandal",
+        "output": "/results",
+        "parser": "parser.py",
+        "solc": null,
+        "version": "#d2b0043"
+    }
+}

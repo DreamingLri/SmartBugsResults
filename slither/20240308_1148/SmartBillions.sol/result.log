@@ -1,0 +1,468 @@
+INFO:Slither:Compilation warnings/errors on /sb/SmartBillions.sol:
+/sb/SmartBillions.sol:85:5: Warning: Use of the "var" keyword is deprecated.
+    var _allowance = allowed[_from][msg.sender];
+    ^------------^
+/sb/SmartBillions.sol:182:5: Warning: Defining constructors as functions with the same name as the contract is deprecated. Use "constructor(...) { ... }" instead.
+    function SmartBillions() {
+    ^ (Relevant source part starts here and spans across multiple lines).
+/sb/SmartBillions.sol:57:9: Warning: Invoking events without "emit" prefix is deprecated.
+        Transfer(msg.sender, owner, _value);
+        ^---------------------------------^
+/sb/SmartBillions.sol:62:9: Warning: Invoking events without "emit" prefix is deprecated.
+        Transfer(msg.sender, _to, _value);
+        ^-------------------------------^
+/sb/SmartBillions.sol:91:5: Warning: Invoking events without "emit" prefix is deprecated.
+    Transfer(_from, _to, _value);
+    ^--------------------------^
+/sb/SmartBillions.sol:102:5: Warning: Invoking events without "emit" prefix is deprecated.
+    Approval(msg.sender, _spender, _value);
+    ^------------------------------------^
+/sb/SmartBillions.sol:318:32: Warning: Using contract member "balance" inherited from the address type is deprecated. Convert the contract to "address" type to access the member, for example use "address(contract).balance" instead.
+        require(_amount > 0 && this.balance >= (investBalance * 9 / 10) + walletBalance + _amount);
+                               ^----------^
+/sb/SmartBillions.sol:320:33: Warning: Using contract member "balance" inherited from the address type is deprecated. Convert the contract to "address" type to access the member, for example use "address(contract).balance" instead.
+            require((_amount <= this.balance / 400) && coldStoreLast + 4 * 60 * 24 * 7 <= block.number);
+                                ^----------^
+/sb/SmartBillions.sol:370:23: Warning: Using contract member "balance" inherited from the address type is deprecated. Convert the contract to "address" type to access the member, for example use "address(contract).balance" instead.
+        uint maxpay = this.balance / 2;
+                      ^----------^
+/sb/SmartBillions.sol:427:9: Warning: Invoking events without "emit" prefix is deprecated.
+        Transfer(address(0),msg.sender,senderBalance); // for etherscan
+        ^-------------------------------------------^
+/sb/SmartBillions.sol:428:9: Warning: Invoking events without "emit" prefix is deprecated.
+        Transfer(address(0),owner,ownerBalance); // for etherscan
+        ^-------------------------------------^
+/sb/SmartBillions.sol:429:9: Warning: Invoking events without "emit" prefix is deprecated.
+        Transfer(address(0),animator,animatorBalance); // for etherscan
+        ^-------------------------------------------^
+/sb/SmartBillions.sol:430:9: Warning: Invoking events without "emit" prefix is deprecated.
+        LogInvestment(msg.sender,_partner,investing);
+        ^------------------------------------------^
+/sb/SmartBillions.sol:440:9: Warning: Invoking events without "emit" prefix is deprecated.
+        Transfer(msg.sender,address(0),balances[msg.sender]); // for etherscan
+        ^--------------------------------------------------^
+/sb/SmartBillions.sol:477:9: Warning: Invoking events without "emit" prefix is deprecated.
+        LogDividend(_who,balance,last);
+        ^----------------------------^
+/sb/SmartBillions.sol:552:13: Warning: Invoking events without "emit" prefix is deprecated.
+            LogLate(msg.sender,player.blockNum,block.number);
+            ^----------------------------------------------^
+/sb/SmartBillions.sol:574:17: Warning: Invoking events without "emit" prefix is deprecated.
+                LogLate(msg.sender,player.blockNum,block.number);
+                ^----------------------------------------------^
+/sb/SmartBillions.sol:581:13: Warning: Invoking events without "emit" prefix is deprecated.
+            LogWin(msg.sender,uint(player.betHash),uint(hash),prize);
+            ^------------------------------------------------------^
+/sb/SmartBillions.sol:584:17: Warning: Invoking events without "emit" prefix is deprecated.
+                LogRecordWin(msg.sender,prize);
+                ^----------------------------^
+/sb/SmartBillions.sol:589:13: Warning: Invoking events without "emit" prefix is deprecated.
+            LogLoss(msg.sender,uint(player.betHash),uint(hash));
+            ^-------------------------------------------------^
+/sb/SmartBillions.sol:618:32: Warning: "sha3" has been deprecated in favour of "keccak256"
+        return playSystem(uint(sha3(msg.sender,block.number)), address(0));
+                               ^---------------------------^
+/sb/SmartBillions.sol:618:32: Warning: This function only accepts a single "bytes" argument. Please use "abi.encodePacked(...)" or a similar function to encode the data.
+        return playSystem(uint(sha3(msg.sender,block.number)), address(0));
+                               ^---------------------------^
+/sb/SmartBillions.sol:626:32: Warning: "sha3" has been deprecated in favour of "keccak256"
+        return playSystem(uint(sha3(msg.sender,block.number)), _partner);
+                               ^---------------------------^
+/sb/SmartBillions.sol:626:32: Warning: This function only accepts a single "bytes" argument. Please use "abi.encodePacked(...)" or a similar function to encode the data.
+        return playSystem(uint(sha3(msg.sender,block.number)), _partner);
+                               ^---------------------------^
+/sb/SmartBillions.sol:660:13: Warning: Invoking events without "emit" prefix is deprecated.
+            LogBet(msg.sender,uint(bethash),hashNext,msg.value);
+            ^-------------------------------------------------^
+/sb/SmartBillions.sol:25:3: Warning: No visibility specified. Defaulting to "public". 
+  function balanceOf(address who) constant returns (uint);
+  ^------------------------------------------------------^
+/sb/SmartBillions.sol:26:3: Warning: No visibility specified. Defaulting to "public". 
+  function transfer(address to, uint value);
+  ^----------------------------------------^
+/sb/SmartBillions.sol:32:3: Warning: No visibility specified. Defaulting to "public". 
+  function allowance(address owner, address spender) constant returns (uint);
+  ^-------------------------------------------------------------------------^
+/sb/SmartBillions.sol:33:3: Warning: No visibility specified. Defaulting to "public". 
+  function transferFrom(address from, address to, uint value);
+  ^----------------------------------------------------------^
+/sb/SmartBillions.sol:34:3: Warning: No visibility specified. Defaulting to "public". 
+  function approve(address spender, uint value);
+  ^--------------------------------------------^
+/sb/SmartBillions.sol:51:3: Warning: No visibility specified. Defaulting to "public". 
+  function transfer(address _to, uint _value) onlyPayloadSize(2 * 32) {
+  ^ (Relevant source part starts here and spans across multiple lines).
+/sb/SmartBillions.sol:70:3: Warning: No visibility specified. Defaulting to "public". 
+  function balanceOf(address _owner) constant returns (uint balance) {
+  ^ (Relevant source part starts here and spans across multiple lines).
+/sb/SmartBillions.sol:84:3: Warning: No visibility specified. Defaulting to "public". 
+  function transferFrom(address _from, address _to, uint _value) onlyPayloadSize(3 * 32) {
+  ^ (Relevant source part starts here and spans across multiple lines).
+/sb/SmartBillions.sol:98:3: Warning: No visibility specified. Defaulting to "public". 
+  function approve(address _spender, uint _value) {
+  ^ (Relevant source part starts here and spans across multiple lines).
+/sb/SmartBillions.sol:110:3: Warning: No visibility specified. Defaulting to "public". 
+  function allowance(address _owner, address _spender) constant returns (uint remaining) {
+  ^ (Relevant source part starts here and spans across multiple lines).
+/sb/SmartBillions.sol:182:5: Warning: No visibility specified. Defaulting to "public". 
+    function SmartBillions() {
+    ^ (Relevant source part starts here and spans across multiple lines).
+/sb/SmartBillions.sol:523:43: Warning: "block.blockhash()" has been deprecated in favor of "blockhash()"
+            return(betPrize(player,uint24(block.blockhash(player.blockNum))));
+                                          ^-------------^
+/sb/SmartBillions.sol:560:27: Warning: "block.blockhash()" has been deprecated in favor of "blockhash()"
+            hash = uint24(block.blockhash(player.blockNum));
+                          ^-------------^
+/sb/SmartBillions.sol:700:24: Warning: "block.blockhash()" has been deprecated in favor of "blockhash()"
+        return( ( uint(block.blockhash(_lastb  )) & 0xFFFFFF )
+                       ^-------------^
+/sb/SmartBillions.sol:702:24: Warning: "block.blockhash()" has been deprecated in favor of "blockhash()"
+            | ( ( uint(block.blockhash(_lastb+1)) & 0xFFFFFF ) << 24 )
+                       ^-------------^
+/sb/SmartBillions.sol:704:24: Warning: "block.blockhash()" has been deprecated in favor of "blockhash()"
+            | ( ( uint(block.blockhash(_lastb+2)) & 0xFFFFFF ) << 48 )
+                       ^-------------^
+/sb/SmartBillions.sol:706:24: Warning: "block.blockhash()" has been deprecated in favor of "blockhash()"
+            | ( ( uint(block.blockhash(_lastb+3)) & 0xFFFFFF ) << 72 )
+                       ^-------------^
+/sb/SmartBillions.sol:708:24: Warning: "block.blockhash()" has been deprecated in favor of "blockhash()"
+            | ( ( uint(block.blockhash(_lastb+4)) & 0xFFFFFF ) << 96 )
+                       ^-------------^
+/sb/SmartBillions.sol:710:24: Warning: "block.blockhash()" has been deprecated in favor of "blockhash()"
+            | ( ( uint(block.blockhash(_lastb+5)) & 0xFFFFFF ) << 120 )
+                       ^-------------^
+/sb/SmartBillions.sol:712:24: Warning: "block.blockhash()" has been deprecated in favor of "blockhash()"
+            | ( ( uint(block.blockhash(_lastb+6)) & 0xFFFFFF ) << 144 )
+                       ^-------------^
+/sb/SmartBillions.sol:714:24: Warning: "block.blockhash()" has been deprecated in favor of "blockhash()"
+            | ( ( uint(block.blockhash(_lastb+7)) & 0xFFFFFF ) << 168 )
+                       ^-------------^
+/sb/SmartBillions.sol:716:24: Warning: "block.blockhash()" has been deprecated in favor of "blockhash()"
+            | ( ( uint(block.blockhash(_lastb+8)) & 0xFFFFFF ) << 192 )
+                       ^-------------^
+/sb/SmartBillions.sol:718:24: Warning: "block.blockhash()" has been deprecated in favor of "blockhash()"
+            | ( ( uint(block.blockhash(_lastb+9)) & 0xFFFFFF ) << 216 )
+                       ^-------------^
+/sb/SmartBillions.sol:10:3: Warning: Function state mutability can be restricted to pure
+  function sub(uint a, uint b) internal returns (uint) {
+  ^ (Relevant source part starts here and spans across multiple lines).
+/sb/SmartBillions.sol:14:3: Warning: Function state mutability can be restricted to pure
+  function add(uint a, uint b) internal returns (uint) {
+  ^ (Relevant source part starts here and spans across multiple lines).
+/sb/SmartBillions.sol:482:5: Warning: Function state mutability can be restricted to pure
+    function betPrize(Bet _player, uint24 _hash) constant private returns (uint) { // house fee 13.85%
+    ^ (Relevant source part starts here and spans across multiple lines).
+
+INFO:Detectors:[93m
+ERC20Basic (/sb/SmartBillions.sol#21-31) has incorrect ERC20 function interface(s):
+	-transfer (/sb/SmartBillions.sol#26-27)
+ERC20 (/sb/SmartBillions.sol#31-38) has incorrect ERC20 function interface(s):
+	-transferFrom (/sb/SmartBillions.sol#33-34)
+	-approve (/sb/SmartBillions.sol#34-35)
+BasicToken (/sb/SmartBillions.sol#39-76) has incorrect ERC20 function interface(s):
+	-transfer (/sb/SmartBillions.sol#51-67)
+StandardToken (/sb/SmartBillions.sol#76-121) has incorrect ERC20 function interface(s):
+	-transferFrom (/sb/SmartBillions.sol#84-94)
+	-approve (/sb/SmartBillions.sol#99-106)
+Reference: https://github.com/trailofbits/slither/wiki/Detectors-Documentation#incorrect-erc20-interface[0m
+INFO:Detectors:[93m
+SmartBillions.addHashes (/sb/SmartBillions.sol#692-706) uses a dangerous strict equality:
+	- require(bool)(hashFirst == 0 && _sadd > 0 && _sadd <= hashesSize)
+SmartBillions.addHashes (/sb/SmartBillions.sol#692-706) uses a dangerous strict equality:
+	- require(bool)(hashFirst == 0 && _sadd > 0 && _sadd <= hashesSize)
+SmartBillions.betOf (/sb/SmartBillions.sol#525-551) uses a dangerous strict equality:
+	- (player.value == 0) || (player.blockNum <= 1) || (block.number < player.blockNum) || (block.number >= player.blockNum + (10 * hashesSize))
+	- hash == 0x1000000
+SmartBillions.addHashes (/sb/SmartBillions.sol#692-706) uses a dangerous strict equality:
+	- require(bool)(hashFirst == 0 && _sadd > 0 && _sadd <= hashesSize)
+SmartBillions.betOf (/sb/SmartBillions.sol#525-551) uses a dangerous strict equality:
+	- (player.value == 0) || (player.blockNum <= 1) || (block.number < player.blockNum) || (block.number >= player.blockNum + (10 * hashesSize))
+	- hash == 0x1000000
+SmartBillions.betPrize (/sb/SmartBillions.sol#492-523) uses a dangerous strict equality:
+	- (hit & 0xF) == 0
+	- (hit & 0xF0) == 0
+	- (hit & 0xF0) == 0
+	- (hit & 0xF00) == 0
+	- (hit & 0xF00) == 0
+	- (hit & 0xF00) == 0
+	- (hit & 0xF00) == 0
+	- (hit & 0xF000) == 0
+	- (hit & 0xF000) == 0
+	- (hit & 0xF000) == 0
+	- (hit & 0xF000) == 0
+	- (hit & 0xF000) == 0
+	- (hit & 0xF000) == 0
+	- (hit & 0xF000) == 0
+	- (hit & 0xF000) == 0
+	- (hit & 0xF0000) == 0
+	- (hit & 0xF0000) == 0
+	- (hit & 0xF0000) == 0
+	- (hit & 0xF0000) == 0
+	- (hit & 0xF0000) == 0
+	- (hit & 0xF0000) == 0
+	- (hit & 0xF0000) == 0
+	- (hit & 0xF0000) == 0
+	- (hit & 0xF0000) == 0
+	- (hit & 0xF0000) == 0
+	- (hit & 0xF0000) == 0
+	- (hit & 0xF0000) == 0
+	- (hit & 0xF0000) == 0
+	- (hit & 0xF0000) == 0
+	- (hit & 0xF0000) == 0
+	- (hit & 0xF0000) == 0
+	- (hit & 0xF00000) == 0
+	- (hit & 0xF00000) == 0
+	- (hit & 0xF00000) == 0
+	- (hit & 0xF00000) == 0
+	- (hit & 0xF00000) == 0
+	- (hit & 0xF00000) == 0
+	- (hit & 0xF00000) == 0
+	- (hit & 0xF00000) == 0
+	- (hit & 0xF00000) == 0
+	- (hit & 0xF00000) == 0
+	- (hit & 0xF00000) == 0
+	- (hit & 0xF00000) == 0
+	- (hit & 0xF00000) == 0
+	- (hit & 0xF00000) == 0
+	- (hit & 0xF00000) == 0
+	- (hit & 0xF00000) == 0
+	- (hit & 0xF00000) == 0
+	- (hit & 0xF00000) == 0
+	- (hit & 0xF00000) == 0
+	- (hit & 0xF00000) == 0
+	- (hit & 0xF00000) == 0
+	- (hit & 0xF00000) == 0
+	- (hit & 0xF00000) == 0
+	- (hit & 0xF00000) == 0
+	- (hit & 0xF00000) == 0
+	- (hit & 0xF00000) == 0
+	- (hit & 0xF00000) == 0
+	- (hit & 0xF00000) == 0
+	- (hit & 0xF00000) == 0
+	- (hit & 0xF00000) == 0
+	- (hit & 0xF00000) == 0
+	- (hit & 0xF00000) == 0
+SmartBillions.addHashes (/sb/SmartBillions.sol#692-706) uses a dangerous strict equality:
+	- require(bool)(hashFirst == 0 && _sadd > 0 && _sadd <= hashesSize)
+SmartBillions.betOf (/sb/SmartBillions.sol#525-551) uses a dangerous strict equality:
+	- (player.value == 0) || (player.blockNum <= 1) || (block.number < player.blockNum) || (block.number >= player.blockNum + (10 * hashesSize))
+	- hash == 0x1000000
+SmartBillions.betPrize (/sb/SmartBillions.sol#492-523) uses a dangerous strict equality:
+	- (hit & 0xF) == 0
+	- (hit & 0xF0) == 0
+	- (hit & 0xF0) == 0
+	- (hit & 0xF00) == 0
+	- (hit & 0xF00) == 0
+	- (hit & 0xF00) == 0
+	- (hit & 0xF00) == 0
+	- (hit & 0xF000) == 0
+	- (hit & 0xF000) == 0
+	- (hit & 0xF000) == 0
+	- (hit & 0xF000) == 0
+	- (hit & 0xF000) == 0
+	- (hit & 0xF000) == 0
+	- (hit & 0xF000) == 0
+	- (hit & 0xF000) == 0
+	- (hit & 0xF0000) == 0
+	- (hit & 0xF0000) == 0
+	- (hit & 0xF0000) == 0
+	- (hit & 0xF0000) == 0
+	- (hit & 0xF0000) == 0
+	- (hit & 0xF0000) == 0
+	- (hit & 0xF0000) == 0
+	- (hit & 0xF0000) == 0
+	- (hit & 0xF0000) == 0
+	- (hit & 0xF0000) == 0
+	- (hit & 0xF0000) == 0
+	- (hit & 0xF0000) == 0
+	- (hit & 0xF0000) == 0
+	- (hit & 0xF0000) == 0
+	- (hit & 0xF0000) == 0
+	- (hit & 0xF0000) == 0
+	- (hit & 0xF00000) == 0
+	- (hit & 0xF00000) == 0
+	- (hit & 0xF00000) == 0
+	- (hit & 0xF00000) == 0
+	- (hit & 0xF00000) == 0
+	- (hit & 0xF00000) == 0
+	- (hit & 0xF00000) == 0
+	- (hit & 0xF00000) == 0
+	- (hit & 0xF00000) == 0
+	- (hit & 0xF00000) == 0
+	- (hit & 0xF00000) == 0
+	- (hit & 0xF00000) == 0
+	- (hit & 0xF00000) == 0
+	- (hit & 0xF00000) == 0
+	- (hit & 0xF00000) == 0
+	- (hit & 0xF00000) == 0
+	- (hit & 0xF00000) == 0
+	- (hit & 0xF00000) == 0
+	- (hit & 0xF00000) == 0
+	- (hit & 0xF00000) == 0
+	- (hit & 0xF00000) == 0
+	- (hit & 0xF00000) == 0
+	- (hit & 0xF00000) == 0
+	- (hit & 0xF00000) == 0
+	- (hit & 0xF00000) == 0
+	- (hit & 0xF00000) == 0
+	- (hit & 0xF00000) == 0
+	- (hit & 0xF00000) == 0
+	- (hit & 0xF00000) == 0
+	- (hit & 0xF00000) == 0
+	- (hit & 0xF00000) == 0
+	- (hit & 0xF00000) == 0
+SmartBillions.putHash (/sb/SmartBillions.sol#760-771) uses a dangerous strict equality:
+	- lastb == 0 || block.number <= lastb + 10
+SmartBillions.addHashes (/sb/SmartBillions.sol#692-706) uses a dangerous strict equality:
+	- require(bool)(hashFirst == 0 && _sadd > 0 && _sadd <= hashesSize)
+SmartBillions.betOf (/sb/SmartBillions.sol#525-551) uses a dangerous strict equality:
+	- (player.value == 0) || (player.blockNum <= 1) || (block.number < player.blockNum) || (block.number >= player.blockNum + (10 * hashesSize))
+	- hash == 0x1000000
+SmartBillions.betPrize (/sb/SmartBillions.sol#492-523) uses a dangerous strict equality:
+	- (hit & 0xF) == 0
+	- (hit & 0xF0) == 0
+	- (hit & 0xF0) == 0
+	- (hit & 0xF00) == 0
+	- (hit & 0xF00) == 0
+	- (hit & 0xF00) == 0
+	- (hit & 0xF00) == 0
+	- (hit & 0xF000) == 0
+	- (hit & 0xF000) == 0
+	- (hit & 0xF000) == 0
+	- (hit & 0xF000) == 0
+	- (hit & 0xF000) == 0
+	- (hit & 0xF000) == 0
+	- (hit & 0xF000) == 0
+	- (hit & 0xF000) == 0
+	- (hit & 0xF0000) == 0
+	- (hit & 0xF0000) == 0
+	- (hit & 0xF0000) == 0
+	- (hit & 0xF0000) == 0
+	- (hit & 0xF0000) == 0
+	- (hit & 0xF0000) == 0
+	- (hit & 0xF0000) == 0
+	- (hit & 0xF0000) == 0
+	- (hit & 0xF0000) == 0
+	- (hit & 0xF0000) == 0
+	- (hit & 0xF0000) == 0
+	- (hit & 0xF0000) == 0
+	- (hit & 0xF0000) == 0
+	- (hit & 0xF0000) == 0
+	- (hit & 0xF0000) == 0
+	- (hit & 0xF0000) == 0
+	- (hit & 0xF00000) == 0
+	- (hit & 0xF00000) == 0
+	- (hit & 0xF00000) == 0
+	- (hit & 0xF00000) == 0
+	- (hit & 0xF00000) == 0
+	- (hit & 0xF00000) == 0
+	- (hit & 0xF00000) == 0
+	- (hit & 0xF00000) == 0
+	- (hit & 0xF00000) == 0
+	- (hit & 0xF00000) == 0
+	- (hit & 0xF00000) == 0
+	- (hit & 0xF00000) == 0
+	- (hit & 0xF00000) == 0
+	- (hit & 0xF00000) == 0
+	- (hit & 0xF00000) == 0
+	- (hit & 0xF00000) == 0
+	- (hit & 0xF00000) == 0
+	- (hit & 0xF00000) == 0
+	- (hit & 0xF00000) == 0
+	- (hit & 0xF00000) == 0
+	- (hit & 0xF00000) == 0
+	- (hit & 0xF00000) == 0
+	- (hit & 0xF00000) == 0
+	- (hit & 0xF00000) == 0
+	- (hit & 0xF00000) == 0
+	- (hit & 0xF00000) == 0
+	- (hit & 0xF00000) == 0
+	- (hit & 0xF00000) == 0
+	- (hit & 0xF00000) == 0
+	- (hit & 0xF00000) == 0
+	- (hit & 0xF00000) == 0
+	- (hit & 0xF00000) == 0
+SmartBillions.putHash (/sb/SmartBillions.sol#760-771) uses a dangerous strict equality:
+	- lastb == 0 || block.number <= lastb + 10
+SmartBillions.won (/sb/SmartBillions.sol#552-609) uses a dangerous strict equality:
+	- player.blockNum == 0
+	- (player.value == 0) || (player.blockNum == 1)
+	- (player.value == 0) || (player.blockNum == 1)
+	- hash == 0x1000000
+Reference: https://github.com/trailofbits/slither/wiki/Detectors-Documentation#dangerous-strict-equalities[0m
+INFO:Detectors:[92m
+ERC20.allowance.owner (local variable @ /sb/SmartBillions.sol#32) shadows:
+	- ERC20Basic.owner (state variable @ /sb/SmartBillions.sol#23-24)
+Reference: https://github.com/trailofbits/slither/wiki/Detectors-Documentation#local-variable-shadowing[0m
+INFO:Detectors:[92m
+SmartBillions.investBalanceMax should be constant (/sb/SmartBillions.sol#146-148)
+Reference: https://github.com/trailofbits/slither/wiki/Detectors-Documentation#state-variables-that-could-be-declared-constant[0m
+INFO:Detectors:[92m
+Deprecated standard detected @ /sb/SmartBillions.sol#541-543:
+	- Usage of "block.blockhash()" should be replaced with "blockhash()"
+Deprecated standard detected @ /sb/SmartBillions.sol#571-574:
+	- Usage of "block.blockhash()" should be replaced with "blockhash()"
+Deprecated standard detected @ /sb/SmartBillions.sol#636-637:
+	- Usage of "sha3()" should be replaced with "keccak256()"
+Deprecated standard detected @ /sb/SmartBillions.sol#641-642:
+	- Usage of "sha3()" should be replaced with "keccak256()"
+Deprecated standard detected @ /sb/SmartBillions.sol#712-741:
+	- Usage of "block.blockhash()" should be replaced with "blockhash()"
+Reference: https://github.com/trailofbits/slither/wiki/Detectors-Documentation#deprecated-standards[0m
+INFO:Detectors:[92m
+BasicToken.balanceOf (/sb/SmartBillions.sol#71-76) should be declared external
+ERC20Basic.balanceOf (/sb/SmartBillions.sol#25-26) should be declared external
+ERC20Basic.transfer (/sb/SmartBillions.sol#26-27) should be declared external
+BasicToken.transfer (/sb/SmartBillions.sol#51-67) should be declared external
+ERC20.allowance (/sb/SmartBillions.sol#32-33) should be declared external
+StandardToken.allowance (/sb/SmartBillions.sol#111-121) should be declared external
+StandardToken.transferFrom (/sb/SmartBillions.sol#84-94) should be declared external
+ERC20.transferFrom (/sb/SmartBillions.sol#33-34) should be declared external
+ERC20.approve (/sb/SmartBillions.sol#34-35) should be declared external
+StandardToken.approve (/sb/SmartBillions.sol#99-106) should be declared external
+SmartBillions.playRandom (/sb/SmartBillions.sol#639-643) should be declared external
+Reference: https://github.com/trailofbits/slither/wiki/Detectors-Documentation#public-function-that-could-be-declared-as-external[0m
+INFO:Detectors:[92m
+Detected issues with version pragma in /sb/SmartBillions.sol:
+	- pragma solidity^0.4.13 (/sb/SmartBillions.sol#7-9): it allows old versions
+Reference: https://github.com/trailofbits/slither/wiki/Detectors-Documentation#incorrect-version-of-solidity[0m
+INFO:Detectors:[92m
+Parameter '_owner' of BasicToken.balanceOf (/sb/SmartBillions.sol#71-73) is not in mixedCase
+Parameter '_to' of BasicToken.transfer (/sb/SmartBillions.sol#51-52) is not in mixedCase
+Parameter '_value' of BasicToken.transfer (/sb/SmartBillions.sol#52) is not in mixedCase
+Parameter '_owner' of StandardToken.allowance (/sb/SmartBillions.sol#112-116) is not in mixedCase
+Parameter '_spender' of StandardToken.allowance (/sb/SmartBillions.sol#116) is not in mixedCase
+Parameter '_from' of StandardToken.transferFrom (/sb/SmartBillions.sol#85) is not in mixedCase
+Parameter '_to' of StandardToken.transferFrom (/sb/SmartBillions.sol#85) is not in mixedCase
+Parameter '_value' of StandardToken.transferFrom (/sb/SmartBillions.sol#85-86) is not in mixedCase
+Parameter '_spender' of StandardToken.approve (/sb/SmartBillions.sol#99-100) is not in mixedCase
+Parameter '_value' of StandardToken.approve (/sb/SmartBillions.sol#100) is not in mixedCase
+Parameter '_who' of SmartBillions.commitDividend (/sb/SmartBillions.sol#471-472) is not in mixedCase
+Function 'SmartBillions.SmartBillions' (/sb/SmartBillions.sol#186-199) is not in mixedCase
+Parameter '_owner' of SmartBillions.walletBalanceOf (/sb/SmartBillions.sol#209-210) is not in mixedCase
+Parameter '_owner' of SmartBillions.walletPeriodOf (/sb/SmartBillions.sol#217) is not in mixedCase
+Parameter '_owner' of SmartBillions.walletBlockOf (/sb/SmartBillions.sol#227) is not in mixedCase
+Parameter '_owner' of SmartBillions.betValueOf (/sb/SmartBillions.sol#235) is not in mixedCase
+Parameter '_owner' of SmartBillions.betHashOf (/sb/SmartBillions.sol#243) is not in mixedCase
+Parameter '_owner' of SmartBillions.betBlockNumberOf (/sb/SmartBillions.sol#250-251) is not in mixedCase
+Parameter '_who' of SmartBillions.changeOwner (/sb/SmartBillions.sol#278) is not in mixedCase
+Parameter '_who' of SmartBillions.changeAnimator (/sb/SmartBillions.sol#289) is not in mixedCase
+Parameter '_when' of SmartBillions.setInvestStart (/sb/SmartBillions.sol#298) is not in mixedCase
+Parameter '_maxsum' of SmartBillions.setBetMax (/sb/SmartBillions.sol#311) is not in mixedCase
+Parameter '_amount' of SmartBillions.coldStore (/sb/SmartBillions.sol#320) is not in mixedCase
+Parameter '_amount' of SmartBillions.pay (/sb/SmartBillions.sol#380) is not in mixedCase
+Parameter '_partner' of SmartBillions.invest (/sb/SmartBillions.sol#405) is not in mixedCase
+Parameter '_player' of SmartBillions.betPrize (/sb/SmartBillions.sol#492-493) is not in mixedCase
+Parameter '_hash' of SmartBillions.betPrize (/sb/SmartBillions.sol#493) is not in mixedCase
+Parameter '_who' of SmartBillions.betOf (/sb/SmartBillions.sol#526) is not in mixedCase
+Parameter '_partner' of SmartBillions.playRandom (/sb/SmartBillions.sol#639) is not in mixedCase
+Parameter '_hash' of SmartBillions.playSystem (/sb/SmartBillions.sol#646) is not in mixedCase
+Parameter '_partner' of SmartBillions.playSystem (/sb/SmartBillions.sol#646) is not in mixedCase
+Parameter '_sadd' of SmartBillions.addHashes (/sb/SmartBillions.sol#694) is not in mixedCase
+Parameter '_lastb' of SmartBillions.calcHashes (/sb/SmartBillions.sol#710) is not in mixedCase
+Parameter '_delta' of SmartBillions.calcHashes (/sb/SmartBillions.sol#710) is not in mixedCase
+Parameter '_block' of SmartBillions.getHash (/sb/SmartBillions.sol#743-744) is not in mixedCase
+Parameter '_num' of SmartBillions.putHashes (/sb/SmartBillions.sol) is not in mixedCase
+Constant 'SmartBillions.hashesSize' (/sb/SmartBillions.sol#163) is not in UPPER_CASE_WITH_UNDERSCORES
+Reference: https://github.com/trailofbits/slither/wiki/Detectors-Documentation#conformance-to-solidity-naming-conventions[0m
+INFO:Slither:/sb/SmartBillions.sol analyzed (6 contracts), 65 result(s) found

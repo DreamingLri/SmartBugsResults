@@ -1,0 +1,51 @@
+{
+    "docker": {
+        "command": null,
+        "detach": true,
+        "entrypoint": "'/sb/bin/do_solidity.sh' '/sb/SimpleDAO.sol' '/sb/bin'",
+        "image": "smartbugs/manticore:0.3.7",
+        "mem_limit": "8g",
+        "user": 0,
+        "volumes": {
+            "/tmp/tmpvg0rby6q": {
+                "bind": "/sb",
+                "mode": "rw"
+            }
+        }
+    },
+    "filename": "samples/SimpleDAO.sol",
+    "platform": {
+        "cpu": "12th Gen Intel(R) Core(TM) i9-12900H",
+        "python": "3.10.12.final.0 (64 bit)",
+        "release": "5.15.133.1-microsoft-standard-WSL2",
+        "smartbugs": "2.0.8",
+        "system": "Linux",
+        "version": "#1 SMP Thu Oct 5 21:02:42 UTC 2023"
+    },
+    "result": {
+        "duration": 111.1149275302887,
+        "exit_code": 0,
+        "logs": "result.log",
+        "output": "result.tar",
+        "start": 1709896150.5658169
+    },
+    "runid": "20240308_1106",
+    "solc": "0.4.26",
+    "tool": {
+        "bin": "scripts",
+        "command": null,
+        "cpu_quota": null,
+        "entrypoint": "'$BIN/do_solidity.sh' '$FILENAME' '$BIN'",
+        "id": "manticore-0.3.7",
+        "image": "smartbugs/manticore:0.3.7",
+        "info": "Manticore is a symbolic execution tool for analysis of smart contracts and binaries.",
+        "mem_limit": null,
+        "mode": "solidity",
+        "name": "Manticore",
+        "origin": "https://github.com/trailofbits/manticore",
+        "output": "/results",
+        "parser": "parser.py",
+        "solc": true,
+        "version": "0.3.7"
+    }
+}

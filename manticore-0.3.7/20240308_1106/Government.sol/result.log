@@ -1,0 +1,6 @@
+2024-03-08 11:09:12,625: [10] m.main:INFO: Registered plugins: IntrospectionAPIPlugin, <class 'manticore.ethereum.plugins.SkipRevertBasicBlocks'>, <class 'manticore.ethereum.plugins.FilterFunctions'>
+2024-03-08 11:09:12,626: [10] m.main:INFO: Beginning analysis
+2024-03-08 11:09:12,627: [10] m.e.manticore:INFO: Starting symbolic create contract
+2024-03-08 11:09:15,598: [10] m.e.manticore:INFO: Starting symbolic transaction: 0
+2024-03-08 11:12:21,240: [10] m.e.manticore:INFO: 8 alive states, 1 terminated states
+2024-03-08 11:12:22,985: [10] m.e.manticore:INFO: Starting symbolic transaction: 1

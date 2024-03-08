@@ -1,0 +1,9 @@
+/sb/SimpleDAO.sol:7:1: Compiler version ^0.4.2 does not satisfy the ^0.5.8 semver requirement [Error/compiler-version]
+/sb/SimpleDAO.sol:12:3: Explicitly mark visibility in function [Warning/func-visibility]
+/sb/SimpleDAO.sol:16:3: Explicitly mark visibility in function [Warning/func-visibility]
+/sb/SimpleDAO.sol:19:18: Avoid to use ".call.value()()" [Warning/avoid-call-value]
+/sb/SimpleDAO.sol:19:18: Avoid to use low level calls. [Warning/avoid-low-level-calls]
+/sb/SimpleDAO.sol:19:7: Variable "res" is unused [Warning/no-unused-vars]
+/sb/SimpleDAO.sol:24:3: Explicitly mark visibility in function [Warning/func-visibility]
+
+7 problems

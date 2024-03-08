@@ -1,0 +1,51 @@
+{
+    "docker": {
+        "command": "'/sb/SmartBillions.rt.hex' 0x1234 0x1000 +1000",
+        "detach": true,
+        "entrypoint": null,
+        "image": "smartbugs/teether:04adf56",
+        "mem_limit": "8g",
+        "user": 0,
+        "volumes": {
+            "/tmp/tmppgd17szg": {
+                "bind": "/sb",
+                "mode": "rw"
+            }
+        }
+    },
+    "filename": "samples/SmartBillions.rt.hex",
+    "platform": {
+        "cpu": "12th Gen Intel(R) Core(TM) i9-12900H",
+        "python": "3.10.12.final.0 (64 bit)",
+        "release": "5.15.133.1-microsoft-standard-WSL2",
+        "smartbugs": "2.0.8",
+        "system": "Linux",
+        "version": "#1 SMP Thu Oct 5 21:02:42 UTC 2023"
+    },
+    "result": {
+        "duration": 612.0152835845947,
+        "exit_code": null,
+        "logs": "result.log",
+        "output": null,
+        "start": 1709899180.8317754
+    },
+    "runid": "20240308_1157",
+    "solc": null,
+    "tool": {
+        "bin": null,
+        "command": "'$FILENAME' 0x1234 0x1000 +1000",
+        "cpu_quota": null,
+        "entrypoint": null,
+        "id": "teether",
+        "image": "smartbugs/teether:04adf56",
+        "info": "Analysis and automatic exploitation framework for Ethereum smart contracts.",
+        "mem_limit": null,
+        "mode": "runtime",
+        "name": "teEther",
+        "origin": "https://github.com/nescio007/teether",
+        "output": null,
+        "parser": "parser.py",
+        "solc": null,
+        "version": "#04adf56"
+    }
+}

@@ -1,0 +1,107 @@
+WARNING:root:You are using solc version 0.4.26, The latest supported version is 0.4.19
+INFO:CryticCompile:Compilation warnings/errors on /sb/Government.sol:
+/sb/Government.sol:23:6: Warning: Defining constructors as functions with the same name as the contract is deprecated. Use "constructor(...) { ... }" instead.
+     function Government() {
+     ^ (Relevant source part starts here and spans across multiple lines).
+/sb/Government.sol:37:14: Warning: Failure condition of 'send' ignored. Consider using 'transfer' instead.
+             msg.sender.send(amount);
+             ^---------------------^
+/sb/Government.sol:39:14: Warning: Failure condition of 'send' ignored. Consider using 'transfer' instead.
+             creditorAddresses[creditorAddresses.length - 1].send(profitFromCrash);
+             ^-------------------------------------------------------------------^
+/sb/Government.sol:40:32: Warning: Using contract member "balance" inherited from the address type is deprecated. Convert the contract to "address" type to access the member, for example use "address(contract).balance" instead.
+             corruptElite.send(this.balance);
+                               ^----------^
+/sb/Government.sol:40:14: Warning: Failure condition of 'send' ignored. Consider using 'transfer' instead.
+             corruptElite.send(this.balance);
+             ^-----------------------------^
+/sb/Government.sol:62:18: Warning: Failure condition of 'send' ignored. Consider using 'transfer' instead.
+                 corruptElite.send(amount * 5/100);
+                 ^-------------------------------^
+/sb/Government.sol:70:22: Warning: Failure condition of 'send' ignored. Consider using 'transfer' instead.
+                     buddy.send(amount * 5/100);
+                     ^------------------------^
+/sb/Government.sol:75:22: Warning: Failure condition of 'send' ignored. Consider using 'transfer' instead.
+                     creditorAddresses[lastCreditorPayedOut].send(creditorAmounts[lastCreditorPayedOut]);
+                     ^---------------------------------------------------------------------------------^
+/sb/Government.sol:82:18: Warning: Failure condition of 'send' ignored. Consider using 'transfer' instead.
+                 msg.sender.send(amount);
+                 ^---------------------^
+/sb/Government.sol:23:6: Warning: No visibility specified. Defaulting to "public". 
+     function Government() {
+     ^ (Relevant source part starts here and spans across multiple lines).
+/sb/Government.sol:26:28: Warning: "msg.value" used in non-payable function. Do you want to add the "payable" modifier to this function?
+         profitFromCrash = msg.value;
+                           ^-------^
+/sb/Government.sol:31:6: Warning: No visibility specified. Defaulting to "public". 
+     function lendGovernmentMoney(address buddy) returns (bool) {
+     ^ (Relevant source part starts here and spans across multiple lines).
+/sb/Government.sol:32:24: Warning: "msg.value" used in non-payable function. Do you want to add the "payable" modifier to this function?
+         uint amount = msg.value;
+                       ^-------^
+/sb/Government.sol:89:6: Warning: No visibility specified. Defaulting to "public". 
+     function() {
+     ^ (Relevant source part starts here and spans across multiple lines).
+/sb/Government.sol:93:6: Warning: No visibility specified. Defaulting to "public". 
+     function totalDebt() returns (uint debt) {
+     ^ (Relevant source part starts here and spans across multiple lines).
+/sb/Government.sol:99:6: Warning: No visibility specified. Defaulting to "public". 
+     function totalPayedOut() returns (uint payout) {
+     ^ (Relevant source part starts here and spans across multiple lines).
+/sb/Government.sol:106:6: Warning: No visibility specified. Defaulting to "public". 
+     function investInTheSystem() {
+     ^ (Relevant source part starts here and spans across multiple lines).
+/sb/Government.sol:107:29: Warning: "msg.value" used in non-payable function. Do you want to add the "payable" modifier to this function?
+         profitFromCrash += msg.value;
+                            ^-------^
+/sb/Government.sol:111:6: Warning: No visibility specified. Defaulting to "public". 
+     function inheritToNextGeneration(address nextGeneration) {
+     ^ (Relevant source part starts here and spans across multiple lines).
+/sb/Government.sol:117:6: Warning: No visibility specified. Defaulting to "public". 
+     function getCreditorAddresses() returns (address[]) {
+     ^ (Relevant source part starts here and spans across multiple lines).
+/sb/Government.sol:121:6: Warning: No visibility specified. Defaulting to "public". 
+     function getCreditorAmounts() returns (uint[]) {
+     ^ (Relevant source part starts here and spans across multiple lines).
+/sb/Government.sol:93:6: Warning: Function state mutability can be restricted to view
+     function totalDebt() returns (uint debt) {
+     ^ (Relevant source part starts here and spans across multiple lines).
+/sb/Government.sol:99:6: Warning: Function state mutability can be restricted to view
+     function totalPayedOut() returns (uint payout) {
+     ^ (Relevant source part starts here and spans across multiple lines).
+/sb/Government.sol:117:6: Warning: Function state mutability can be restricted to view
+     function getCreditorAddresses() returns (address[]) {
+     ^ (Relevant source part starts here and spans across multiple lines).
+/sb/Government.sol:121:6: Warning: Function state mutability can be restricted to view
+     function getCreditorAmounts() returns (uint[]) {
+     ^ (Relevant source part starts here and spans across multiple lines).
+
+INFO:root:contract /sb/Government.sol:Government:
+INFO:symExec:	============ Results ===========
+INFO:symExec:	  EVM Code Coverage: 			 37.4%
+INFO:symExec:	  Integer Underflow: 			 False
+INFO:symExec:	  Integer Overflow: 			 True
+INFO:symExec:	  Parity Multisig Bug 2: 		 False
+INFO:symExec:	  Callstack Depth Attack Vulnerability:  True
+INFO:symExec:	  Transaction-Ordering Dependence (TOD): False
+INFO:symExec:	  Timestamp Dependency: 		 False
+INFO:symExec:	  Re-Entrancy Vulnerability: 		 False
+INFO:symExec:/sb/Government.sol:16:6: Warning: Integer Overflow.
+     address[] public creditorAddresses
+/sb/Government.sol:17:6: Warning: Integer Overflow.
+     uint[] public creditorAmounts
+INFO:symExec:/sb/Government.sol:37:14: Warning: Callstack Depth Attack Vulnerability.
+             msg.sender.send(amount)
+/sb/Government.sol:39:14: Warning: Callstack Depth Attack Vulnerability.
+             creditorAddresses[creditorAddresses.length - 1].send(profitFromCrash)
+/sb/Government.sol:40:14: Warning: Callstack Depth Attack Vulnerability.
+             corruptElite.send(this.balance)
+/sb/Government.sol:62:18: Warning: Callstack Depth Attack Vulnerability.
+                 corruptElite.send(amount * 5/100)
+/sb/Government.sol:70:22: Warning: Callstack Depth Attack Vulnerability.
+                     buddy.send(amount * 5/100)
+/sb/Government.sol:75:22: Warning: Callstack Depth Attack Vulnerability.
+                     creditorAddresses[lastCreditorPayedOut].send(creditorAmounts[lastCreditorPayedOut])
+/sb/Government.sol:82:18: Warning: Callstack Depth Attack Vulnerability.
+                 msg.sender.send(amount)
+INFO:symExec:	====== Analysis Completed ======

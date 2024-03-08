@@ -1,0 +1,124 @@
+INFO:Slither:Compilation warnings/errors on /sb/Rubixi.sol:
+/sb/Rubixi.sol:83:42: Warning: "throw" is deprecated in favour of "revert()", "require()" and "assert()".
+                 if (collectedFees == 0) throw;
+                                         ^---^
+/sb/Rubixi.sol:93:42: Warning: "throw" is deprecated in favour of "revert()", "require()" and "assert()".
+                 if (collectedFees == 0) throw;
+                                         ^---^
+/sb/Rubixi.sol:100:58: Warning: "throw" is deprecated in favour of "revert()", "require()" and "assert()".
+                 if (collectedFees == 0 || _pcent > 100) throw;
+                                                         ^---^
+/sb/Rubixi.sol:113:50: Warning: "throw" is deprecated in favour of "revert()", "require()" and "assert()".
+                 if (_mult > 300 || _mult < 120) throw;
+                                                 ^---^
+/sb/Rubixi.sol:119:33: Warning: "throw" is deprecated in favour of "revert()", "require()" and "assert()".
+                 if (_fee > 10) throw;
+                                ^---^
+/sb/Rubixi.sol:74:26: Warning: Failure condition of 'send' ignored. Consider using 'transfer' instead.
+                         participants[payoutOrder].etherAddress.send(payoutToSend);
+                         ^-------------------------------------------------------^
+/sb/Rubixi.sol:85:18: Warning: Failure condition of 'send' ignored. Consider using 'transfer' instead.
+                 creator.send(collectedFees);
+                 ^-------------------------^
+/sb/Rubixi.sol:95:18: Warning: Failure condition of 'send' ignored. Consider using 'transfer' instead.
+                 creator.send(_amt);
+                 ^----------------^
+/sb/Rubixi.sol:103:18: Warning: Failure condition of 'send' ignored. Consider using 'transfer' instead.
+                 creator.send(feesToCollect);
+                 ^-------------------------^
+/sb/Rubixi.sol:23:10: Warning: No visibility specified. Defaulting to "public". 
+         function DynamicPyramid() {
+         ^ (Relevant source part starts here and spans across multiple lines).
+/sb/Rubixi.sol:39:10: Warning: No visibility specified. Defaulting to "public". 
+         function() {
+         ^ (Relevant source part starts here and spans across multiple lines).
+/sb/Rubixi.sol:82:10: Warning: No visibility specified. Defaulting to "public". 
+         function collectAllFees() onlyowner {
+         ^ (Relevant source part starts here and spans across multiple lines).
+/sb/Rubixi.sol:89:10: Warning: No visibility specified. Defaulting to "public". 
+         function collectFeesInEther(uint _amt) onlyowner {
+         ^ (Relevant source part starts here and spans across multiple lines).
+/sb/Rubixi.sol:99:10: Warning: No visibility specified. Defaulting to "public". 
+         function collectPercentOfFees(uint _pcent) onlyowner {
+         ^ (Relevant source part starts here and spans across multiple lines).
+/sb/Rubixi.sol:108:10: Warning: No visibility specified. Defaulting to "public". 
+         function changeOwner(address _owner) onlyowner {
+         ^ (Relevant source part starts here and spans across multiple lines).
+/sb/Rubixi.sol:112:10: Warning: No visibility specified. Defaulting to "public". 
+         function changeMultiplier(uint _mult) onlyowner {
+         ^ (Relevant source part starts here and spans across multiple lines).
+/sb/Rubixi.sol:118:10: Warning: No visibility specified. Defaulting to "public". 
+         function changeFeePercentage(uint _fee) onlyowner {
+         ^ (Relevant source part starts here and spans across multiple lines).
+/sb/Rubixi.sol:125:10: Warning: No visibility specified. Defaulting to "public". 
+         function currentMultiplier() constant returns(uint multiplier, string info) {
+         ^ (Relevant source part starts here and spans across multiple lines).
+/sb/Rubixi.sol:130:10: Warning: No visibility specified. Defaulting to "public". 
+         function currentFeePercentage() constant returns(uint fee, string info) {
+         ^ (Relevant source part starts here and spans across multiple lines).
+/sb/Rubixi.sol:135:10: Warning: No visibility specified. Defaulting to "public". 
+         function currentPyramidBalanceApproximately() constant returns(uint pyramidBalance, string info) {
+         ^ (Relevant source part starts here and spans across multiple lines).
+/sb/Rubixi.sol:140:10: Warning: No visibility specified. Defaulting to "public". 
+         function nextPayoutWhenPyramidBalanceTotalsApproximately() constant returns(uint balancePayout) {
+         ^ (Relevant source part starts here and spans across multiple lines).
+/sb/Rubixi.sol:144:10: Warning: No visibility specified. Defaulting to "public". 
+         function feesSeperateFromBalanceApproximately() constant returns(uint fees) {
+         ^ (Relevant source part starts here and spans across multiple lines).
+/sb/Rubixi.sol:148:10: Warning: No visibility specified. Defaulting to "public". 
+         function totalParticipants() constant returns(uint count) {
+         ^ (Relevant source part starts here and spans across multiple lines).
+/sb/Rubixi.sol:152:10: Warning: No visibility specified. Defaulting to "public". 
+         function numberOfParticipantsWaitingForPayout() constant returns(uint count) {
+         ^ (Relevant source part starts here and spans across multiple lines).
+/sb/Rubixi.sol:156:10: Warning: No visibility specified. Defaulting to "public". 
+         function participantDetails(uint orderInPyramid) constant returns(address Address, uint Payout) {
+         ^ (Relevant source part starts here and spans across multiple lines).
+
+INFO:Detectors:[92m
+Rubixi.addPayout has external calls inside a loop:
+	- participants[payoutOrder].etherAddress.send(payoutToSend) (/sb/Rubixi.sol#76-77)
+Reference: https://github.com/trailofbits/slither/wiki/Detectors-Documentation/_edit#calls-inside-a-loop[0m
+INFO:Detectors:[92m
+Deprecated standard detected @ /sb/Rubixi.sol#86:
+	- Usage of "throw" should be replaced with "revert()"
+Deprecated standard detected @ /sb/Rubixi.sol#97-99:
+	- Usage of "throw" should be replaced with "revert()"
+Deprecated standard detected @ /sb/Rubixi.sol#103:
+	- Usage of "throw" should be replaced with "revert()"
+Deprecated standard detected @ /sb/Rubixi.sol#118:
+	- Usage of "throw" should be replaced with "revert()"
+Deprecated standard detected @ /sb/Rubixi.sol#124:
+	- Usage of "throw" should be replaced with "revert()"
+Reference: https://github.com/trailofbits/slither/wiki/Detectors-Documentation#deprecated-standards[0m
+INFO:Detectors:[92m
+Rubixi.DynamicPyramid (/sb/Rubixi.sol#23-27) should be declared external
+Rubixi.fallback (/sb/Rubixi.sol#41-43) should be declared external
+Rubixi.collectFeesInEther (/sb/Rubixi.sol#91-100) should be declared external
+Rubixi.collectPercentOfFees (/sb/Rubixi.sol#100-108) should be declared external
+Rubixi.changeOwner (/sb/Rubixi.sol#112-113) should be declared external
+Rubixi.changeMultiplier (/sb/Rubixi.sol#115-121) should be declared external
+Rubixi.changeFeePercentage (/sb/Rubixi.sol#121-125) should be declared external
+Rubixi.currentMultiplier (/sb/Rubixi.sol#126-132) should be declared external
+Rubixi.currentFeePercentage (/sb/Rubixi.sol#132-136) should be declared external
+Rubixi.currentPyramidBalanceApproximately (/sb/Rubixi.sol#136-141) should be declared external
+Rubixi.nextPayoutWhenPyramidBalanceTotalsApproximately (/sb/Rubixi.sol#141-146) should be declared external
+Rubixi.feesSeperateFromBalanceApproximately (/sb/Rubixi.sol#148-152) should be declared external
+Rubixi.totalParticipants (/sb/Rubixi.sol#152-153) should be declared external
+Rubixi.numberOfParticipantsWaitingForPayout (/sb/Rubixi.sol#156-157) should be declared external
+Rubixi.participantDetails (/sb/Rubixi.sol#157-162) should be declared external
+Reference: https://github.com/trailofbits/slither/wiki/Detectors-Documentation#public-function-that-could-be-declared-as-external[0m
+INFO:Detectors:[92m
+Detected issues with version pragma in /sb/Rubixi.sol:
+	- pragma solidity^0.4.15 (/sb/Rubixi.sol#8-10): it allows old versions
+Reference: https://github.com/trailofbits/slither/wiki/Detectors-Documentation#incorrect-version-of-solidity[0m
+INFO:Detectors:[92m
+Function 'Rubixi.DynamicPyramid' (/sb/Rubixi.sol#23-27) is not in mixedCase
+Parameter '_fee' of Rubixi.addPayout (/sb/Rubixi.sol#60) is not in mixedCase
+Parameter '_amt' of Rubixi.collectFeesInEther (/sb/Rubixi.sol#91) is not in mixedCase
+Parameter '_pcent' of Rubixi.collectPercentOfFees (/sb/Rubixi.sol#102) is not in mixedCase
+Parameter '_owner' of Rubixi.changeOwner (/sb/Rubixi.sol#112) is not in mixedCase
+Parameter '_mult' of Rubixi.changeMultiplier (/sb/Rubixi.sol#115) is not in mixedCase
+Parameter '_fee' of Rubixi.changeFeePercentage (/sb/Rubixi.sol#124) is not in mixedCase
+Reference: https://github.com/trailofbits/slither/wiki/Detectors-Documentation#conformance-to-solidity-naming-conventions[0m
+INFO:Slither:/sb/Rubixi.sol analyzed (1 contracts), 29 result(s) found
